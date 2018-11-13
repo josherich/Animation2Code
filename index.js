@@ -1,7 +1,6 @@
 const fs = require('fs');
 var _ = require('underscore')._;
 const CDP = require('chrome-remote-interface');
-var sys = require('sys')
 var exec = require('child_process').exec;
 
 let effects = ['bounce','flash', 'pulse', 'rubberBand',
@@ -25,6 +24,8 @@ let effects = ['bounce','flash', 'pulse', 'rubberBand',
   'slideOutDown','slideOutLeft','slideOutRight', 'slideOutUp',
   'heartBeat'];
 
+// effects = ['pulse']
+
 function generateHTML(effect) {
     var templatePath = fs.readFileSync(__dirname + '/template.html', 'utf8');
     var data = {
@@ -46,30 +47,25 @@ async function generateVideo(effect) {
         const {Network, Page} = client;
         // setup handlers
         Network.requestWillBeSent((params) => {
-            console.log(params.request.url);
+            console.log('req will be sent: ', params.request.url);
         });
         // enable events then start!
         await Network.enable();
         await Page.enable();
         await Page.setDeviceMetricsOverride({width: 256, height: 256, deviceScaleFactor: 0, mobile: false});
         await Page.navigate({url: `file:///Users/chenjosh/projects/CSS2Code/html/${effect}.html`});
+        console.log('render page: ', effect);
         await Page.loadEventFired();
         await Page.startScreencast({format: 'png', quality: 80, everyNthFrame: 1, maxWidth: 256, maxHeight: 256});
 
         let counter = 0;
-        const frames = [];
         while(counter < 120){
           const {data, metadata, sessionId} = await Page.screencastFrame();
           await Page.screencastFrameAck({sessionId: sessionId});
-          frames.push(data);
+          const imgbuffer = Buffer.from(data, 'base64');
+          fs.writeFileSync(`images/${effect}_${counter}.png`, imgbuffer);
           counter++;
         }
-
-        frames.map((data, index) => {
-          const imgbuffer = Buffer.from(data, 'base64');
-          fs.writeFileSync(`images/${effect}_${index}.png`, imgbuffer);
-        })
-
     } catch (err) {
         console.error(err);
     } finally {
@@ -80,7 +76,7 @@ async function generateVideo(effect) {
 }
 
 function generateAVI(effect) {
-  const cmd = `ffmpeg -y -framerate 30 -pattern_type glob -i 'images/${effect}_*.png' -c:v ffv1 video/${effect}.avi`
+  const cmd = `ffmpeg -y -framerate 60 -pattern_type glob -i 'images/${effect}_*.png' -c:v ffv1 video/${effect}.avi`
   dir = exec(cmd, function(err, stdout, stderr) {
     if (err) {
       console.log(err);
