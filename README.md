@@ -18,13 +18,11 @@ node index.js
   generate HTML
 
   |
-
   v
 
   generate Images
 
   |
-
   v
 
   generate Video
