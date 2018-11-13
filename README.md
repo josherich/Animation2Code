@@ -1,6 +1,6 @@
 # CSS2Code
 
-## install for Mac
+## Install for Mac
 
 ```
 brew install ffmpeg
@@ -13,12 +13,18 @@ npm install
 node index.js
 ```
 
-## steps
+## Steps
 
   generate HTML
+
   |
+
   v
+
   generate Images
+
   |
+
   v
+
   generate Video
