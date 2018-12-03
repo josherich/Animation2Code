@@ -7,6 +7,9 @@ yarn-error.log*
 
 images
 video
+html
+
+venv
 
 # Runtime data
 pids
