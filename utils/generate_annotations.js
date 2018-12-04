@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-let effects = ['bounce','flash', 'pulse', 'rubberBand',
+const effects = ['bounce','flash', 'pulse', 'rubberBand',
 'shake', 'headShake', 'swing', 'tada',
 'wobble','jello', 'bounceIn','bounceInDown',
 'bounceInLeft','bounceInRight', 'bounceInUp','bounceOut',
@@ -21,23 +21,25 @@ let effects = ['bounce','flash', 'pulse', 'rubberBand',
 'slideOutDown','slideOutLeft','slideOutRight', 'slideOutUp',
 'heartBeat'];
 
-let patterns = [
+const patterns = [
   'text',
   'square',
   'line',
   'image'
 ];
 
-let speeds = [
+const speeds = [
   'slow',
   'slower',
   'fast',
   'faster'
 ];
 
-function generate_annotations() {
+const validation_sample_ratio = 59;
+
+function generate_annotations_classification() {
   let data = {}
-  let trainDir = 'train_video';
+  let trainDir = 'data/video';
   let database = {};
 
   data['labels'] = effects;
@@ -45,7 +47,7 @@ function generate_annotations() {
   let i = 1;
   let split = 'training';
   files.forEach(function (filename) {
-    if (i % 59 == 0) {
+    if (i % validation_sample_ratio == 0) {
       split = 'validation'
     } else {
       split = 'training'
@@ -61,6 +63,37 @@ function generate_annotations() {
   data['database'] = database;
   const dataBuffer = Buffer.from(JSON.stringify(data), 'utf-8');
   fs.writeFileSync(`annotations.json`, dataBuffer);
+}
+
+function generate_annotaions_seq() {
+  let data = {}
+  let trainDir = 'data/video';
+  let database = {};
+
+  const code = fs.readFileSync(__dirname + '../full_labels.json');
+  const codemap = JSON.parse(code);
+
+  data['labels'] = effects;
+  let files = fs.readdirSync(trainDir);
+  let i = 1;
+  let split = 'training';
+  files.forEach(function (filename) {
+    if (i % validation_sample_ratio == 0) {
+      split = 'validation'
+    } else {
+      split = 'training'
+    }
+    database[filename.split('.')[0]] = {
+      'subset': split,
+      'annotations': {
+        'label': code.map(filename.split('.')[0].split('_')[0]),
+      }
+    }
+    i++;
+  });
+  data['database'] = database;
+  const dataBuffer = Buffer.from(JSON.stringify(data), 'utf-8');
+  fs.writeFileSync(`annotations_seq.json`, dataBuffer);
 }
 
 generate_annotations()

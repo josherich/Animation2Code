@@ -3,7 +3,7 @@ const _ = require('underscore')._;
 const seedrandom = require('seedrandom');
 seedrandom('polandspring', { global: true });
 
-let effects = ['bounce','flash', 'pulse', 'rubberBand',
+const effects = ['bounce','flash', 'pulse', 'rubberBand',
 'shake', 'headShake', 'swing', 'tada',
 'wobble','jello', 'bounceIn','bounceInDown',
 'bounceInLeft','bounceInRight', 'bounceInUp','bounceOut',
@@ -24,14 +24,14 @@ let effects = ['bounce','flash', 'pulse', 'rubberBand',
 'slideOutDown','slideOutLeft','slideOutRight', 'slideOutUp',
 'heartBeat'];
 
-let patterns = [
+const patterns = [
   'text',
   'square',
   'line',
   'image'
 ];
 
-let speeds = [
+const speeds = [
   'slow',
   'slower',
   'fast',
