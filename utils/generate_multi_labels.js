@@ -132,7 +132,7 @@ const rename_pv = (declaration) => {
 const generate_full_string = () => {
   const dict = {}
   const values = {} // list all values
-  effects.map((eff) => {
+  effects.map((eff, effIndex) => {
     // keyframe points
     let keyframes = ast['stylesheet']['rules'].filter((rule) => {
       return rule['type'] === 'keyframes' && rule['vendor'] == undefined && rule['name'] === eff
@@ -194,7 +194,7 @@ const generate_full_string = () => {
           ]
         }
 
-        dict[`${eff}_${pat}_${spd}`] = css.stringify({
+        dict[`${eff}_${pat}_${spd}${effIndex}`] = css.stringify({
           "type": "stylesheet",
           "stylesheet":
           {
@@ -215,10 +215,46 @@ const generate_full_string = () => {
   return dict;
 }
 
+const validation_sample_ratio = 59;
+
+const write_src_tgt_for_onmt = (dict) => {
+  let src_train = ""
+  let tgt_train = ""
+  let src_val = ""
+  let tgt_val = ""
+  let trainDir = 'data/video';
+
+  let files = fs.readdirSync(trainDir);
+  
+  let i = 1;
+  files.forEach(function (filename) {
+    let key = filename.split('.')[0]
+    let index = effects.indexOf(key.split('_')[0])
+    if (i % validation_sample_ratio == 0) {
+      src_val += `${key+index}\n`
+      tgt_val += dict[key+index].replace(/\n/g, '').replace(/\s{1,}/g, ' ') + '\n'
+    } else {
+      src_train += `${key+index}\n`
+      tgt_train += `${dict[key+index]}`.replace(/\n/g, '').replace(/\s{1,}/g, ' ') + '\n'
+    }
+    i++
+  })
+
+  const srcTrainDataBuffer = Buffer.from(src_train, 'utf-8');
+  const tgtTrainDataBuffer = Buffer.from(tgt_train, 'utf-8');
+  const srcValDataBuffer = Buffer.from(src_val, 'utf-8');
+  const tgtValDataBuffer = Buffer.from(tgt_val, 'utf-8');
+
+  fs.writeFileSync(`src-train.txt`, srcTrainDataBuffer);
+  fs.writeFileSync(`tgt-train.txt`, tgtTrainDataBuffer);
+  fs.writeFileSync(`src-val.txt`, srcValDataBuffer);
+  fs.writeFileSync(`tgt-val.txt`, tgtValDataBuffer);
+
+}
+
 const dict = generate_full_string()
-let string = JSON.stringify(dict)
+write_src_tgt_for_onmt(dict)
 
-string = string.replace(/\\n/g, '')
-
-const dataBuffer = Buffer.from(string, 'utf-8');
-fs.writeFileSync(`full_labels.json`, dataBuffer);
+// let string = JSON.stringify(dict).replace(/\\n/g, '')
+// const dataBuffer = Buffer.from(string, 'utf-8');
+// fs.writeFileSync(`full_labels.json`, dataBuffer);
