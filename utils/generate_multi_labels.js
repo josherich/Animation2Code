@@ -232,10 +232,10 @@ const write_src_tgt_for_onmt = (dict) => {
     let index = effects.indexOf(key.split('_')[0])
     if (i % validation_sample_ratio == 0) {
       src_val += `${key+index}\n`
-      tgt_val += dict[key+index].replace(/\n/g, '').replace(/\s{1,}/g, ' ') + '\n'
+      tgt_val += dict[key+index].replace(/\n/g, ' ').replace(/\s{1,}/g, ' ').replace(/;/g, ' ;').replace(/:/g, ' :').replace(/,/g, ' :') + '\n'
     } else {
       src_train += `${key+index}\n`
-      tgt_train += `${dict[key+index]}`.replace(/\n/g, '').replace(/\s{1,}/g, ' ') + '\n'
+      tgt_train += `${dict[key+index]}`.replace(/\n/g, ' ').replace(/\s{1,}/g, ' ').replace(/;/g, ' ;').replace(/:/g, ' :').replace(/,/g, ' :')  + '\n'
     }
     i++
   })

@@ -1,20 +1,20 @@
-@keyframes { from, 60%, 75%, 90%, to { atf: cb; } from { op: 0; tf: t3; } 60% { op: 1; tf: t3; } 75% { tf: t3; } 90% { tf: t3; } to { tf: t3; }}sel { ad: slow; pat: square;}
-@keyframes { 20% { op: 1; tf: t3; } to { op: 0; tf: t3; }}sel { ad: faster; pat: line;}
-@keyframes { from { op: 0; tf: t3; } to { op: 1; tf: t3; }}sel { ad: fast; pat: image;}
-@keyframes { from { op: 0; tf: t3; } to { op: 1; tf: t3; }}sel { ad: slower; pat: square;}
-@keyframes { from { op: 0; tf: t3; } to { op: 1; tf: t3; }}sel { ad: slow; pat: line;}
-@keyframes { from { op: 1; } to { op: 0; tf: t3; }}sel { ad: faster; pat: image;}
-@keyframes { from { op: 1; } to { op: 0; tf: t3; }}sel { ad: fast; pat: text;}
-@keyframes { from, 50%, to { op: 1; } 25%, 75% { op: 0; }}sel { ad: slower; pat: line;}
-@keyframes { from { tf: per; } 30% { tf: per r3; op: 1; } to { tf: per r3; op: 0; }}sel { ad: s; bv: vi !;}sel { ad: slow; pat: image;}
-@keyframes { 0% { to: top left; atf: eio; } 20%, 60% { tf: r3; to: top left; atf: eio; } 40%, 80% { tf: r3; to: top left; atf: eio; op: 1; } to { tf: t3; op: 0; }}sel { ad: s;}sel { ad: faster; pat: text;}
-@keyframes { from { op: 1; } to { tf: t3 kx; op: 0; }}sel { atf: ei;}sel { ad: fast; pat: square;}
-@keyframes { from { to: left bottom; tf: r3; op: 0; } to { to: left bottom; tf: t3; op: 1; }}sel { ad: slower; pat: image;}
-@keyframes { from { to: right bottom; tf: r3; op: 0; } to { to: right bottom; tf: t3; op: 1; }}sel { ad: slow; pat: text;}
-@keyframes { from { to: left bottom; op: 1; } to { to: left bottom; tf: r3; op: 0; }}sel { ad: faster; pat: square;}
-@keyframes { from, to { tf: t3; } 10%, 30%, 50%, 70%, 90% { tf: t3; } 20%, 40%, 60%, 80% { tf: t3; }}sel { ad: fast; pat: line;}
-@keyframes { from { tf: t3; v: vi; } to { tf: t3; }}sel { ad: slower; pat: text;}
-@keyframes { from { tf: t3; } to { v: h; tf: t3; }}sel { ad: slow; pat: square;}
-@keyframes { from { tf: t3; } 15% { tf: t3 r3; } 30% { tf: t3 r3; } 45% { tf: t3 r3; } 60% { tf: t3 r3; } 75% { tf: t3 r3; } to { tf: t3; }}sel { ad: faster; pat: line;}
-@keyframes { from { op: 0; tf: s3 t3; atf: cb; } 60% { op: 1; tf: s3 t3; atf: cb; }}sel { ad: fast; pat: image;}
-@keyframes { 40% { op: 1; tf: s3 t3; } to { op: 0; tf: sc t3; to: left center; }}sel { ad: slower; pat: square;}
+@keyframes { from : 60% : 75% : 90% : to { atf : cb ; } from { op : 0 ; tf : t3 ; } 60% { op : 1 ; tf : t3 ; } 75% { tf : t3 ; } 90% { tf : t3 ; } to { tf : t3 ; } } sel { ad : slow ; pat : square ; }
+@keyframes { 20% { op : 1 ; tf : t3 ; } to { op : 0 ; tf : t3 ; } } sel { ad : faster ; pat : line ; }
+@keyframes { from { op : 0 ; tf : t3 ; } to { op : 1 ; tf : t3 ; } } sel { ad : fast ; pat : image ; }
+@keyframes { from { op : 0 ; tf : t3 ; } to { op : 1 ; tf : t3 ; } } sel { ad : slower ; pat : square ; }
+@keyframes { from { op : 0 ; tf : t3 ; } to { op : 1 ; tf : t3 ; } } sel { ad : slow ; pat : line ; }
+@keyframes { from { op : 1 ; } to { op : 0 ; tf : t3 ; } } sel { ad : faster ; pat : image ; }
+@keyframes { from { op : 1 ; } to { op : 0 ; tf : t3 ; } } sel { ad : fast ; pat : text ; }
+@keyframes { from : 50% : to { op : 1 ; } 25% : 75% { op : 0 ; } } sel { ad : slower ; pat : line ; }
+@keyframes { from { tf : per ; } 30% { tf : per r3 ; op : 1 ; } to { tf : per r3 ; op : 0 ; } } sel { ad : s ; bv : vi ! ; } sel { ad : slow ; pat : image ; }
+@keyframes { 0% { to : top left ; atf : eio ; } 20% : 60% { tf : r3 ; to : top left ; atf : eio ; } 40% : 80% { tf : r3 ; to : top left ; atf : eio ; op : 1 ; } to { tf : t3 ; op : 0 ; } } sel { ad : s ; } sel { ad : faster ; pat : text ; }
+@keyframes { from { op : 1 ; } to { tf : t3 kx ; op : 0 ; } } sel { atf : ei ; } sel { ad : fast ; pat : square ; }
+@keyframes { from { to : left bottom ; tf : r3 ; op : 0 ; } to { to : left bottom ; tf : t3 ; op : 1 ; } } sel { ad : slower ; pat : image ; }
+@keyframes { from { to : right bottom ; tf : r3 ; op : 0 ; } to { to : right bottom ; tf : t3 ; op : 1 ; } } sel { ad : slow ; pat : text ; }
+@keyframes { from { to : left bottom ; op : 1 ; } to { to : left bottom ; tf : r3 ; op : 0 ; } } sel { ad : faster ; pat : square ; }
+@keyframes { from : to { tf : t3 ; } 10% : 30% : 50% : 70% : 90% { tf : t3 ; } 20% : 40% : 60% : 80% { tf : t3 ; } } sel { ad : fast ; pat : line ; }
+@keyframes { from { tf : t3 ; v : vi ; } to { tf : t3 ; } } sel { ad : slower ; pat : text ; }
+@keyframes { from { tf : t3 ; } to { v : h ; tf : t3 ; } } sel { ad : slow ; pat : square ; }
+@keyframes { from { tf : t3 ; } 15% { tf : t3 r3 ; } 30% { tf : t3 r3 ; } 45% { tf : t3 r3 ; } 60% { tf : t3 r3 ; } 75% { tf : t3 r3 ; } to { tf : t3 ; } } sel { ad : faster ; pat : line ; }
+@keyframes { from { op : 0 ; tf : s3 t3 ; atf : cb ; } 60% { op : 1 ; tf : s3 t3 ; atf : cb ; } } sel { ad : fast ; pat : image ; }
+@keyframes { 40% { op : 1 ; tf : s3 t3 ; } to { op : 0 ; tf : sc t3 ; to : left center ; } } sel { ad : slower ; pat : square ; }

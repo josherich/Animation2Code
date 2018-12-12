@@ -48,9 +48,15 @@ nohup python main.py --root_path ./data --video_path images/ --annotation_path a
 python main.py --root_path ./data --video_path images/ --annotation_path annotations.json --result_path results --model resnet --model_depth 18 --n_classes 77 --batch_size 4 --n_threads 4 --checkpoint 5 --sample_size 240 --sample_duration 70 --resume_path save_60.pth
 
 # Saving features
-python main.py --root_path ./data --video_path images/ --annotation_path annotations.json --result_path results_features --model resnet --model_depth 18 --n_classes 77 --batch_size 4 --n_threads 4 --checkpoint 1 --sample_size 240 --sample_duration 70 --resume_path save_60.pth --n_epochs=61 --dataset ucf101
+python main.py --root_path ./data --video_path images/ --annotation_path annotations.json --result_path results_features --model resnet --model_depth 10 --n_classes 77 --batch_size 4 --n_threads 4 --checkpoint 1 --sample_size 240 --sample_duration 70 --resume_path save_60.pth --n_epochs=61 --dataset ucf101
 
-## revision
+
+## trainning captioning
+
+```
+cd caption
+python train.py
+```
 
 remove scale
 
