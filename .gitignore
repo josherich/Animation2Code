@@ -8,6 +8,8 @@ yarn-error.log*
 images
 video
 html
+caption/data/features
+caption/data/val_feats
 
 venv
 
