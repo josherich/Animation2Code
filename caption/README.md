@@ -7,6 +7,10 @@ tar -xvcf val_feats.tar
 
 #### 2. build vocabulary
 
+```bash
+python build_vocab.py --src_path ../src-train.txt --tgt_path ../tgt-train.txt
+```
+
 #### 3. train
 
 ```bash
