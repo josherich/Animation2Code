@@ -239,6 +239,18 @@ const write_src_tgt_for_onmt = (dict) => {
     }
     i++
   })
+  let max = 0
+  tgt_train.split('\n').map((line) => {
+    if (line.split(' ').length > max) {
+      max = line.split(' ').length
+    }
+  })
+  tgt_val.split('\n').map((line) => {
+    if (line.split(' ').length > max) {
+      max = line.split(' ').length
+    }
+  })
+  console.log(max)
 
   const srcTrainDataBuffer = Buffer.from(src_train, 'utf-8');
   const tgtTrainDataBuffer = Buffer.from(tgt_train, 'utf-8');

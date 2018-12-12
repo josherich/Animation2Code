@@ -29,7 +29,7 @@ def main(args):
 
     # Build models
     # encoder = EncoderCNN(args.embed_size).eval()  # eval mode (batchnorm uses moving mean/variance)
-    decoder = DecoderRNN(args.embed_size, args.hidden_size, len(vocab), args.num_layers)
+    decoder = DecoderRNN(args.embed_size, args.hidden_size, len(vocab), args.num_layers, args.max_length)
     # encoder = encoder.to(device)
     decoder = decoder.to(device)
 
@@ -53,8 +53,6 @@ def main(args):
         word = vocab.idx2word[word_id]
         sampled_caption.append(word)
         if word == '<end>':
-            print('end')
-            sampled_caption.append(word)
             break
     sentence = ' '.join(sampled_caption)
     
@@ -69,6 +67,7 @@ if __name__ == '__main__':
     parser.add_argument('--decoder_path', type=str, default='models/decoder-10-1.ckpt', help='path for trained decoder')
     parser.add_argument('--vocab_path', type=str, default='data/vocab.pkl', help='path for vocabulary wrapper')
     parser.add_argument('--image_dir', type=str, default='data/features', help='directory for resized images')
+    parser.add_argument('--max_length', type=int , default=92, help='max seq length')
     
     # Model parameters (should be same as paramters in train.py)
     parser.add_argument('--embed_size', type=int , default=256, help='dimension of word embedding vectors')
