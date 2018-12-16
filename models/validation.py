@@ -17,13 +17,17 @@ def val_epoch(epoch, data_loader, model, criterion, opt, logger):
     accuracies = AverageMeter()
 
     end_time = time.time()
-    for i, (inputs, targets) in enumerate(data_loader):
+    for i, (inputs, targets, video_ids) in enumerate(data_loader):
         data_time.update(time.time() - end_time)
 
         # if not opt.no_cuda:
             # targets = targets.cuda(async=True)
         inputs = Variable(inputs, volatile=True)
         targets = Variable(targets, volatile=True)
+
+        if opt.save_features:
+            model.module.label = video_ids[0] + str(targets.tolist()[0])
+
         outputs = model(inputs)
         loss = criterion(outputs, targets)
         acc = calculate_accuracy(outputs, targets)

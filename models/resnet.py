@@ -120,6 +120,8 @@ class ResNet(nn.Module):
                  shortcut_type='B',
                  num_classes=400):
         self.inplanes = 64
+        self.label = "0"
+        self.save_features = False
         super(ResNet, self).__init__()
         self.conv1 = nn.Conv3d(
             3,
@@ -176,22 +178,6 @@ class ResNet(nn.Module):
 
         return nn.Sequential(*layers)
 
-    def save_features(self, x, label):
-        x = self.conv1(x)
-        x = self.bn1(x)
-        x = self.relu(x)
-        x = self.maxpool(x)
-
-        x = self.layer1(x)
-        x = self.layer2(x)
-        x = self.layer3(x)
-        x = self.layer4(x)
-
-        x = self.avgpool(x)
-        x = x.view(x.size(0), -1)
-        outfile = TemporaryFile()
-        np.save(outfile, (Variable(x).data).cpu().numpy())
-
     def forward(self, x):
         x = self.conv1(x)
         x = self.bn1(x)
@@ -206,6 +192,8 @@ class ResNet(nn.Module):
         x = self.avgpool(x)
 
         x = x.view(x.size(0), -1)
+        if self.save_features:
+            np.save(self.label, (Variable(x).data).cpu().numpy())
         x = self.fc(x)
 
         return x

@@ -9,6 +9,11 @@ def parse_opts():
         type=str,
         help='Root directory path of data')
     parser.add_argument(
+        '--save_features',
+        action='store_true',
+        help='If true, features are saved as .npy files')
+    parser.set_defaults(save_features=False)
+    parser.add_argument(
         '--video_path',
         default='video_kinetics_jpg',
         type=str,

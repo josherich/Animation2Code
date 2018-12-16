@@ -181,6 +181,7 @@ class CSSAnimation(data.Dataset):
             tuple: (image, target) where target is class_index of the target class.
         """
         path = self.data[index]['video']
+        video_id = self.data[index]['video_id']
 
         frame_indices = self.data[index]['frame_indices']
         if self.temporal_transform is not None:
@@ -195,7 +196,7 @@ class CSSAnimation(data.Dataset):
         if self.target_transform is not None:
             target = self.target_transform(target)
 
-        return clip, target
+        return clip, target, video_id
 
     def __len__(self):
         return len(self.data)

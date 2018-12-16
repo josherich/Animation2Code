@@ -1,6 +1,5 @@
 # Logs
 logs
-*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -8,6 +7,8 @@ yarn-error.log*
 images
 video
 html
+caption/data/features
+caption/data/val_feats
 
 venv
 
