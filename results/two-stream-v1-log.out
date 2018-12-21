@@ -1,0 +1,2482 @@
+Building model ... 
+Model flow_resnet18 is loaded. 
+Saving everything to directory ./checkpoints.
+1232 samples found, 1212 train samples and 20 test samples.
+Current learning rate is 0.010000:
+Epoch
+0
+Dataset Size
+1212
+Epoch: [0][50/123]	Time 45.542 (57.794)	Loss 4.3401 (4.5971)	Prec@1 6.000 (1.800)
+Epoch: [0][100/123]	Time 48.867 (56.938)	Loss 4.6408 (4.6217)	Prec@1 2.000 (2.100)
+Current learning rate is 0.010000:
+Epoch
+1
+Dataset Size
+1212
+Epoch: [1][50/123]	Time 23.671 (25.032)	Loss 4.6805 (4.6668)	Prec@1 6.000 (1.800)
+Epoch: [1][100/123]	Time 27.917 (25.482)	Loss 4.5960 (4.6446)	Prec@1 0.000 (1.200)
+Current learning rate is 0.010000:
+Epoch
+2
+Dataset Size
+1212
+Epoch: [2][50/123]	Time 16.387 (20.488)	Loss 4.3953 (4.4594)	Prec@1 0.000 (2.600)
+Epoch: [2][100/123]	Time 16.638 (20.144)	Loss 4.5034 (4.4471)	Prec@1 2.000 (2.900)
+Current learning rate is 0.010000:
+Epoch
+3
+Dataset Size
+1212
+Epoch: [3][50/123]	Time 13.336 (17.976)	Loss 4.3662 (4.3238)	Prec@1 6.000 (4.800)
+Epoch: [3][100/123]	Time 14.845 (17.799)	Loss 4.2690 (4.3487)	Prec@1 4.000 (4.000)
+Current learning rate is 0.010000:
+Epoch
+4
+Dataset Size
+1212
+Epoch: [4][50/123]	Time 15.618 (17.254)	Loss 4.2858 (4.2063)	Prec@1 6.000 (5.600)
+Epoch: [4][100/123]	Time 16.839 (17.308)	Loss 4.3709 (4.2116)	Prec@1 0.000 (4.700)
+Current learning rate is 0.010000:
+Epoch
+5
+Dataset Size
+1212
+Epoch: [5][50/123]	Time 14.777 (17.590)	Loss 4.2315 (4.1531)	Prec@1 4.000 (3.600)
+Epoch: [5][100/123]	Time 13.485 (17.267)	Loss 3.8152 (4.1360)	Prec@1 8.000 (4.400)
+Current learning rate is 0.010000:
+Epoch
+6
+Dataset Size
+1212
+Epoch: [6][50/123]	Time 17.241 (17.388)	Loss 3.9411 (4.0515)	Prec@1 4.000 (5.400)
+Epoch: [6][100/123]	Time 17.621 (17.232)	Loss 4.0640 (4.0779)	Prec@1 6.000 (4.600)
+Current learning rate is 0.010000:
+Epoch
+7
+Dataset Size
+1212
+Epoch: [7][50/123]	Time 15.479 (16.983)	Loss 4.1370 (4.0261)	Prec@1 10.000 (7.000)
+Epoch: [7][100/123]	Time 12.565 (16.930)	Loss 3.8748 (3.9355)	Prec@1 6.000 (7.300)
+Current learning rate is 0.010000:
+Epoch
+8
+Dataset Size
+1212
+Epoch: [8][50/123]	Time 15.189 (16.445)	Loss 3.4992 (3.7056)	Prec@1 10.000 (11.400)
+Epoch: [8][100/123]	Time 12.063 (16.433)	Loss 3.6109 (3.7288)	Prec@1 14.000 (10.700)
+Current learning rate is 0.010000:
+Epoch
+9
+Dataset Size
+1212
+Epoch: [9][50/123]	Time 13.081 (16.746)	Loss 3.5505 (3.5354)	Prec@1 12.000 (10.400)
+Epoch: [9][100/123]	Time 12.913 (16.675)	Loss 3.5920 (3.6134)	Prec@1 12.000 (9.800)
+Current learning rate is 0.010000:
+Epoch
+10
+Dataset Size
+1212
+Epoch: [10][50/123]	Time 14.358 (16.725)	Loss 3.7057 (3.4822)	Prec@1 8.000 (13.000)
+Epoch: [10][100/123]	Time 12.646 (16.724)	Loss 3.6456 (3.4376)	Prec@1 6.000 (12.100)
+Current learning rate is 0.010000:
+Epoch
+11
+Dataset Size
+1212
+Epoch: [11][50/123]	Time 13.812 (16.376)	Loss 3.5942 (3.4174)	Prec@1 10.000 (14.200)
+Epoch: [11][100/123]	Time 14.376 (16.350)	Loss 3.2008 (3.3760)	Prec@1 18.000 (13.200)
+Current learning rate is 0.010000:
+Epoch
+12
+Dataset Size
+1212
+Epoch: [12][50/123]	Time 13.291 (16.651)	Loss 3.2321 (3.2751)	Prec@1 12.000 (14.200)
+Epoch: [12][100/123]	Time 12.767 (16.531)	Loss 3.6142 (3.3082)	Prec@1 6.000 (14.300)
+Current learning rate is 0.010000:
+Epoch
+13
+Dataset Size
+1212
+Epoch: [13][50/123]	Time 17.980 (16.723)	Loss 3.0036 (3.1189)	Prec@1 22.000 (19.400)
+Epoch: [13][100/123]	Time 19.703 (16.585)	Loss 3.3583 (3.1253)	Prec@1 14.000 (18.300)
+Current learning rate is 0.010000:
+Epoch
+14
+Dataset Size
+1212
+Epoch: [14][50/123]	Time 13.841 (16.550)	Loss 2.9937 (2.9846)	Prec@1 22.000 (19.400)
+Epoch: [14][100/123]	Time 14.568 (16.499)	Loss 3.1416 (3.0807)	Prec@1 16.000 (17.500)
+Current learning rate is 0.010000:
+Epoch
+15
+Dataset Size
+1212
+Epoch: [15][50/123]	Time 15.256 (16.717)	Loss 2.9218 (2.9362)	Prec@1 12.000 (17.600)
+Epoch: [15][100/123]	Time 19.006 (16.610)	Loss 3.1809 (3.0438)	Prec@1 10.000 (16.500)
+Current learning rate is 0.010000:
+Epoch
+16
+Dataset Size
+1212
+Epoch: [16][50/123]	Time 13.110 (17.241)	Loss 3.2126 (3.0367)	Prec@1 14.000 (17.800)
+Epoch: [16][100/123]	Time 14.233 (16.999)	Loss 2.7729 (3.0470)	Prec@1 22.000 (18.500)
+Current learning rate is 0.010000:
+Epoch
+17
+Dataset Size
+1212
+Epoch: [17][50/123]	Time 13.139 (16.360)	Loss 2.9579 (2.9400)	Prec@1 18.000 (20.800)
+Epoch: [17][100/123]	Time 13.313 (16.427)	Loss 3.1390 (2.9274)	Prec@1 18.000 (21.700)
+Current learning rate is 0.010000:
+Epoch
+18
+Dataset Size
+1212
+Epoch: [18][50/123]	Time 14.257 (16.527)	Loss 2.6253 (2.9235)	Prec@1 22.000 (22.400)
+Epoch: [18][100/123]	Time 13.341 (16.534)	Loss 3.4131 (2.8836)	Prec@1 18.000 (22.400)
+Current learning rate is 0.010000:
+Epoch
+19
+Dataset Size
+1212
+Epoch: [19][50/123]	Time 15.668 (16.548)	Loss 2.7900 (2.7907)	Prec@1 24.000 (23.400)
+Epoch: [19][100/123]	Time 13.382 (16.414)	Loss 2.6020 (2.7505)	Prec@1 30.000 (23.200)
+Current learning rate is 0.010000:
+Epoch
+20
+Dataset Size
+1212
+Epoch: [20][50/123]	Time 16.467 (16.429)	Loss 2.8320 (2.7637)	Prec@1 20.000 (22.800)
+Epoch: [20][100/123]	Time 13.812 (16.375)	Loss 2.7642 (2.7214)	Prec@1 26.000 (21.800)
+Current learning rate is 0.010000:
+Epoch
+21
+Dataset Size
+1212
+Epoch: [21][50/123]	Time 13.013 (17.025)	Loss 2.8007 (2.6388)	Prec@1 24.000 (27.200)
+Epoch: [21][100/123]	Time 14.331 (16.802)	Loss 2.5102 (2.6584)	Prec@1 28.000 (26.800)
+Current learning rate is 0.010000:
+Epoch
+22
+Dataset Size
+1212
+Epoch: [22][50/123]	Time 15.844 (16.567)	Loss 2.5255 (2.4769)	Prec@1 24.000 (29.400)
+Epoch: [22][100/123]	Time 16.707 (16.467)	Loss 3.2122 (2.5219)	Prec@1 14.000 (27.900)
+Current learning rate is 0.010000:
+Epoch
+23
+Dataset Size
+1212
+Epoch: [23][50/123]	Time 12.982 (16.627)	Loss 2.5181 (2.4957)	Prec@1 24.000 (26.800)
+Epoch: [23][100/123]	Time 13.035 (16.655)	Loss 2.8432 (2.5506)	Prec@1 18.000 (26.600)
+Current learning rate is 0.010000:
+Epoch
+24
+Dataset Size
+1212
+Epoch: [24][50/123]	Time 13.197 (16.537)	Loss 2.4127 (2.5237)	Prec@1 32.000 (28.000)
+Epoch: [24][100/123]	Time 13.149 (16.333)	Loss 2.6371 (2.5940)	Prec@1 22.000 (25.300)
+Test: [0/2]	Time 22.798 (22.798)	Loss 2.2823 (2.2823)	Prec@1 30.000 (30.000)	Prec@3 50.000 (50.000)
+ * Prec@1 40.000 Prec@3 60.000
+Current learning rate is 0.010000:
+Epoch
+25
+Dataset Size
+1212
+Epoch: [25][50/123]	Time 13.616 (16.464)	Loss 2.6731 (2.4354)	Prec@1 26.000 (27.800)
+Epoch: [25][100/123]	Time 13.444 (16.468)	Loss 2.6526 (2.3880)	Prec@1 30.000 (29.200)
+Current learning rate is 0.010000:
+Epoch
+26
+Dataset Size
+1212
+Epoch: [26][50/123]	Time 13.172 (16.464)	Loss 2.2746 (2.2879)	Prec@1 38.000 (33.200)
+Epoch: [26][100/123]	Time 13.017 (16.430)	Loss 2.6661 (2.3857)	Prec@1 16.000 (31.900)
+Current learning rate is 0.010000:
+Epoch
+27
+Dataset Size
+1212
+Epoch: [27][50/123]	Time 13.560 (16.385)	Loss 1.8729 (2.2390)	Prec@1 44.000 (33.200)
+Epoch: [27][100/123]	Time 17.114 (16.455)	Loss 2.1763 (2.3377)	Prec@1 36.000 (30.600)
+Current learning rate is 0.010000:
+Epoch
+28
+Dataset Size
+1212
+Epoch: [28][50/123]	Time 17.008 (16.617)	Loss 2.3565 (2.2437)	Prec@1 32.000 (35.000)
+Epoch: [28][100/123]	Time 20.172 (16.623)	Loss 2.6215 (2.2806)	Prec@1 24.000 (33.700)
+Current learning rate is 0.010000:
+Epoch
+29
+Dataset Size
+1212
+Epoch: [29][50/123]	Time 18.406 (16.726)	Loss 2.0260 (2.2271)	Prec@1 42.000 (34.000)
+Epoch: [29][100/123]	Time 17.507 (16.472)	Loss 2.0291 (2.2505)	Prec@1 34.000 (33.200)
+Current learning rate is 0.010000:
+Epoch
+30
+Dataset Size
+1212
+Epoch: [30][50/123]	Time 13.042 (16.464)	Loss 2.2611 (2.2450)	Prec@1 28.000 (35.400)
+Epoch: [30][100/123]	Time 13.636 (16.462)	Loss 2.0230 (2.2441)	Prec@1 44.000 (33.900)
+Current learning rate is 0.010000:
+Epoch
+31
+Dataset Size
+1212
+Epoch: [31][50/123]	Time 12.536 (16.433)	Loss 2.3221 (2.2641)	Prec@1 40.000 (36.000)
+Epoch: [31][100/123]	Time 16.805 (16.456)	Loss 1.7579 (2.1540)	Prec@1 50.000 (38.600)
+Current learning rate is 0.010000:
+Epoch
+32
+Dataset Size
+1212
+Epoch: [32][50/123]	Time 14.962 (16.587)	Loss 2.0634 (2.0425)	Prec@1 32.000 (38.000)
+Epoch: [32][100/123]	Time 14.383 (16.469)	Loss 1.8436 (2.0849)	Prec@1 50.000 (38.100)
+Current learning rate is 0.010000:
+Epoch
+33
+Dataset Size
+1212
+Epoch: [33][50/123]	Time 13.963 (16.440)	Loss 2.0121 (2.1426)	Prec@1 44.000 (35.800)
+Epoch: [33][100/123]	Time 18.868 (16.516)	Loss 1.8196 (2.0860)	Prec@1 48.000 (38.100)
+Current learning rate is 0.010000:
+Epoch
+34
+Dataset Size
+1212
+Epoch: [34][50/123]	Time 13.161 (16.606)	Loss 1.9487 (1.9555)	Prec@1 40.000 (41.600)
+Epoch: [34][100/123]	Time 12.639 (16.607)	Loss 2.2643 (1.9768)	Prec@1 32.000 (41.000)
+Current learning rate is 0.010000:
+Epoch
+35
+Dataset Size
+1212
+Epoch: [35][50/123]	Time 12.851 (16.716)	Loss 2.2411 (2.0328)	Prec@1 32.000 (38.600)
+Epoch: [35][100/123]	Time 18.968 (16.697)	Loss 1.9601 (2.0376)	Prec@1 46.000 (39.800)
+Current learning rate is 0.010000:
+Epoch
+36
+Dataset Size
+1212
+Epoch: [36][50/123]	Time 13.689 (16.700)	Loss 1.7195 (1.9040)	Prec@1 52.000 (42.200)
+Epoch: [36][100/123]	Time 12.953 (16.592)	Loss 1.7457 (1.9044)	Prec@1 44.000 (41.900)
+Current learning rate is 0.010000:
+Epoch
+37
+Dataset Size
+1212
+Epoch: [37][50/123]	Time 15.581 (16.644)	Loss 1.8650 (1.8454)	Prec@1 40.000 (42.600)
+Epoch: [37][100/123]	Time 14.400 (16.518)	Loss 1.6622 (1.8341)	Prec@1 50.000 (42.900)
+Current learning rate is 0.010000:
+Epoch
+38
+Dataset Size
+1212
+Epoch: [38][50/123]	Time 15.039 (16.533)	Loss 1.7728 (1.8511)	Prec@1 46.000 (42.800)
+Epoch: [38][100/123]	Time 13.514 (16.435)	Loss 1.8926 (1.8189)	Prec@1 38.000 (44.100)
+Current learning rate is 0.010000:
+Epoch
+39
+Dataset Size
+1212
+Epoch: [39][50/123]	Time 12.402 (16.434)	Loss 2.2482 (1.8179)	Prec@1 30.000 (42.600)
+Epoch: [39][100/123]	Time 13.942 (16.383)	Loss 1.8186 (1.7860)	Prec@1 42.000 (43.900)
+Current learning rate is 0.010000:
+Epoch
+40
+Dataset Size
+1212
+Epoch: [40][50/123]	Time 13.680 (16.455)	Loss 1.2857 (1.6597)	Prec@1 54.000 (45.600)
+Epoch: [40][100/123]	Time 16.802 (16.495)	Loss 1.8348 (1.7591)	Prec@1 38.000 (44.400)
+Current learning rate is 0.010000:
+Epoch
+41
+Dataset Size
+1212
+Epoch: [41][50/123]	Time 12.926 (16.648)	Loss 1.7214 (1.7102)	Prec@1 40.000 (47.600)
+Epoch: [41][100/123]	Time 13.526 (16.669)	Loss 1.8454 (1.7096)	Prec@1 48.000 (47.700)
+Current learning rate is 0.010000:
+Epoch
+42
+Dataset Size
+1212
+Epoch: [42][50/123]	Time 13.647 (16.653)	Loss 2.0308 (1.8392)	Prec@1 36.000 (45.000)
+Epoch: [42][100/123]	Time 12.795 (16.690)	Loss 1.4970 (1.7601)	Prec@1 50.000 (45.600)
+Current learning rate is 0.010000:
+Epoch
+43
+Dataset Size
+1212
+Epoch: [43][50/123]	Time 15.588 (16.636)	Loss 1.7281 (1.6974)	Prec@1 44.000 (46.800)
+Epoch: [43][100/123]	Time 13.417 (16.548)	Loss 1.6312 (1.7577)	Prec@1 46.000 (44.800)
+Current learning rate is 0.010000:
+Epoch
+44
+Dataset Size
+1212
+Epoch: [44][50/123]	Time 19.101 (16.759)	Loss 1.5808 (1.5725)	Prec@1 50.000 (50.000)
+Epoch: [44][100/123]	Time 19.584 (16.840)	Loss 1.4947 (1.6038)	Prec@1 46.000 (49.400)
+Current learning rate is 0.010000:
+Epoch
+45
+Dataset Size
+1212
+Epoch: [45][50/123]	Time 15.575 (16.848)	Loss 1.7383 (1.6086)	Prec@1 52.000 (49.200)
+Epoch: [45][100/123]	Time 14.766 (16.980)	Loss 1.5889 (1.5859)	Prec@1 48.000 (49.900)
+Current learning rate is 0.010000:
+Epoch
+46
+Dataset Size
+1212
+Epoch: [46][50/123]	Time 13.998 (17.053)	Loss 1.5050 (1.4945)	Prec@1 46.000 (50.800)
+Epoch: [46][100/123]	Time 13.398 (16.802)	Loss 1.5523 (1.5399)	Prec@1 54.000 (50.600)
+Current learning rate is 0.010000:
+Epoch
+47
+Dataset Size
+1212
+Epoch: [47][50/123]	Time 13.008 (16.963)	Loss 1.6287 (1.4960)	Prec@1 50.000 (50.000)
+Epoch: [47][100/123]	Time 14.181 (16.940)	Loss 1.6008 (1.5094)	Prec@1 52.000 (50.000)
+Current learning rate is 0.010000:
+Epoch
+48
+Dataset Size
+1212
+Epoch: [48][50/123]	Time 13.635 (16.992)	Loss 1.4939 (1.5438)	Prec@1 56.000 (50.200)
+Epoch: [48][100/123]	Time 12.361 (16.744)	Loss 1.5566 (1.5141)	Prec@1 52.000 (52.200)
+Current learning rate is 0.010000:
+Epoch
+49
+Dataset Size
+1212
+Epoch: [49][50/123]	Time 14.187 (16.935)	Loss 1.5938 (1.4858)	Prec@1 40.000 (52.400)
+Epoch: [49][100/123]	Time 14.668 (16.771)	Loss 1.2650 (1.4815)	Prec@1 60.000 (51.900)
+Test: [0/2]	Time 68.550 (68.550)	Loss 0.7463 (0.7463)	Prec@1 70.000 (70.000)	Prec@3 100.000 (100.000)
+ * Prec@1 55.000 Prec@3 85.000
+Current learning rate is 0.010000:
+Epoch
+50
+Dataset Size
+1212
+Epoch: [50][50/123]	Time 16.611 (17.314)	Loss 1.7284 (1.4379)	Prec@1 40.000 (52.400)
+Epoch: [50][100/123]	Time 16.353 (17.232)	Loss 1.2716 (1.4267)	Prec@1 52.000 (54.200)
+Current learning rate is 0.010000:
+Epoch
+51
+Dataset Size
+1212
+Epoch: [51][50/123]	Time 12.864 (16.552)	Loss 1.5892 (1.5205)	Prec@1 42.000 (50.600)
+Epoch: [51][100/123]	Time 21.287 (17.041)	Loss 1.3677 (1.4559)	Prec@1 46.000 (50.900)
+Current learning rate is 0.010000:
+Epoch
+52
+Dataset Size
+1212
+Epoch: [52][50/123]	Time 13.688 (18.283)	Loss 1.0260 (1.2808)	Prec@1 62.000 (59.600)
+Epoch: [52][100/123]	Time 17.340 (18.348)	Loss 1.5705 (1.3830)	Prec@1 58.000 (55.800)
+Current learning rate is 0.010000:
+Epoch
+53
+Dataset Size
+1212
+Epoch: [53][50/123]	Time 16.742 (18.673)	Loss 1.5295 (1.3383)	Prec@1 54.000 (55.600)
+Epoch: [53][100/123]	Time 28.281 (19.162)	Loss 1.2130 (1.3612)	Prec@1 50.000 (55.100)
+Current learning rate is 0.010000:
+Epoch
+54
+Dataset Size
+1212
+Epoch: [54][50/123]	Time 19.217 (22.708)	Loss 1.1723 (1.3665)	Prec@1 64.000 (58.200)
+Epoch: [54][100/123]	Time 14.892 (21.373)	Loss 1.5770 (1.3822)	Prec@1 46.000 (55.500)
+Current learning rate is 0.010000:
+Epoch
+55
+Dataset Size
+1212
+Epoch: [55][50/123]	Time 15.950 (20.697)	Loss 1.6111 (1.3087)	Prec@1 56.000 (57.800)
+Epoch: [55][100/123]	Time 20.584 (19.967)	Loss 1.6205 (1.3441)	Prec@1 54.000 (57.400)
+Current learning rate is 0.010000:
+Epoch
+56
+Dataset Size
+1212
+Epoch: [56][50/123]	Time 16.119 (18.367)	Loss 1.2234 (1.2986)	Prec@1 58.000 (56.600)
+Epoch: [56][100/123]	Time 18.619 (18.351)	Loss 1.3873 (1.2675)	Prec@1 54.000 (58.900)
+Current learning rate is 0.010000:
+Epoch
+57
+Dataset Size
+1212
+Epoch: [57][50/123]	Time 19.422 (18.738)	Loss 1.1063 (1.2587)	Prec@1 58.000 (58.400)
+Epoch: [57][100/123]	Time 21.408 (18.179)	Loss 1.3219 (1.2811)	Prec@1 50.000 (57.600)
+Current learning rate is 0.010000:
+Epoch
+58
+Dataset Size
+1212
+Epoch: [58][50/123]	Time 23.255 (18.572)	Loss 1.2734 (1.2552)	Prec@1 52.000 (59.000)
+Epoch: [58][100/123]	Time 22.870 (18.852)	Loss 1.5080 (1.2945)	Prec@1 58.000 (58.800)
+Current learning rate is 0.010000:
+Epoch
+59
+Dataset Size
+1212
+Epoch: [59][50/123]	Time 13.212 (18.171)	Loss 1.2089 (1.3131)	Prec@1 64.000 (57.200)
+Epoch: [59][100/123]	Time 22.939 (17.931)	Loss 1.0201 (1.2684)	Prec@1 70.000 (57.800)
+Current learning rate is 0.010000:
+Epoch
+60
+Dataset Size
+1212
+Epoch: [60][50/123]	Time 18.954 (18.135)	Loss 1.2511 (1.2648)	Prec@1 54.000 (59.400)
+Epoch: [60][100/123]	Time 14.885 (17.992)	Loss 1.3603 (1.2526)	Prec@1 58.000 (60.400)
+Current learning rate is 0.010000:
+Epoch
+61
+Dataset Size
+1212
+Epoch: [61][50/123]	Time 23.716 (18.190)	Loss 1.2958 (1.2656)	Prec@1 56.000 (58.400)
+Epoch: [61][100/123]	Time 16.999 (17.455)	Loss 1.3089 (1.2264)	Prec@1 54.000 (59.400)
+Current learning rate is 0.010000:
+Epoch
+62
+Dataset Size
+1212
+Epoch: [62][50/123]	Time 13.795 (16.762)	Loss 1.2074 (1.1921)	Prec@1 58.000 (60.200)
+Epoch: [62][100/123]	Time 16.290 (16.877)	Loss 1.2923 (1.2504)	Prec@1 52.000 (58.900)
+Current learning rate is 0.010000:
+Epoch
+63
+Dataset Size
+1212
+Epoch: [63][50/123]	Time 13.970 (16.969)	Loss 1.0557 (1.1686)	Prec@1 60.000 (62.200)
+Epoch: [63][100/123]	Time 12.679 (17.139)	Loss 1.0351 (1.1811)	Prec@1 68.000 (62.500)
+Current learning rate is 0.010000:
+Epoch
+64
+Dataset Size
+1212
+Epoch: [64][50/123]	Time 13.774 (17.021)	Loss 0.8950 (1.0933)	Prec@1 74.000 (64.600)
+Epoch: [64][100/123]	Time 13.954 (16.978)	Loss 1.1654 (1.1433)	Prec@1 56.000 (62.400)
+Current learning rate is 0.010000:
+Epoch
+65
+Dataset Size
+1212
+Epoch: [65][50/123]	Time 17.883 (16.996)	Loss 0.9567 (1.0801)	Prec@1 68.000 (63.400)
+Epoch: [65][100/123]	Time 20.756 (17.117)	Loss 1.1542 (1.1299)	Prec@1 64.000 (62.900)
+Current learning rate is 0.010000:
+Epoch
+66
+Dataset Size
+1212
+Epoch: [66][50/123]	Time 12.724 (17.137)	Loss 1.4305 (1.0595)	Prec@1 54.000 (64.400)
+Epoch: [66][100/123]	Time 13.027 (16.891)	Loss 1.0348 (1.0736)	Prec@1 60.000 (64.200)
+Current learning rate is 0.010000:
+Epoch
+67
+Dataset Size
+1212
+Epoch: [67][50/123]	Time 11.785 (16.967)	Loss 0.9536 (1.0766)	Prec@1 70.000 (64.400)
+Epoch: [67][100/123]	Time 16.691 (16.908)	Loss 0.9243 (1.0800)	Prec@1 82.000 (64.800)
+Current learning rate is 0.010000:
+Epoch
+68
+Dataset Size
+1212
+Epoch: [68][50/123]	Time 14.081 (17.073)	Loss 0.9163 (1.0454)	Prec@1 66.000 (66.200)
+Epoch: [68][100/123]	Time 18.645 (17.197)	Loss 1.0138 (1.0425)	Prec@1 64.000 (65.500)
+Current learning rate is 0.010000:
+Epoch
+69
+Dataset Size
+1212
+Epoch: [69][50/123]	Time 13.743 (17.160)	Loss 1.2156 (1.0875)	Prec@1 62.000 (63.400)
+Epoch: [69][100/123]	Time 12.459 (17.076)	Loss 1.4929 (1.1327)	Prec@1 48.000 (61.600)
+Current learning rate is 0.010000:
+Epoch
+70
+Dataset Size
+1212
+Epoch: [70][50/123]	Time 14.657 (17.048)	Loss 0.9492 (1.0882)	Prec@1 68.000 (65.600)
+Epoch: [70][100/123]	Time 12.493 (17.083)	Loss 0.9503 (1.0584)	Prec@1 68.000 (66.200)
+Current learning rate is 0.010000:
+Epoch
+71
+Dataset Size
+1212
+Epoch: [71][50/123]	Time 19.459 (17.196)	Loss 1.0897 (1.0189)	Prec@1 62.000 (65.400)
+Epoch: [71][100/123]	Time 19.051 (16.929)	Loss 0.9210 (0.9765)	Prec@1 70.000 (66.300)
+Current learning rate is 0.010000:
+Epoch
+72
+Dataset Size
+1212
+Epoch: [72][50/123]	Time 16.114 (16.916)	Loss 0.8624 (0.9334)	Prec@1 72.000 (71.800)
+Epoch: [72][100/123]	Time 15.664 (16.784)	Loss 0.9851 (0.9992)	Prec@1 66.000 (68.700)
+Current learning rate is 0.010000:
+Epoch
+73
+Dataset Size
+1212
+Epoch: [73][50/123]	Time 13.461 (16.731)	Loss 0.9622 (0.9548)	Prec@1 64.000 (69.000)
+Epoch: [73][100/123]	Time 14.758 (16.809)	Loss 0.9878 (0.9860)	Prec@1 66.000 (67.700)
+Current learning rate is 0.010000:
+Epoch
+74
+Dataset Size
+1212
+Epoch: [74][50/123]	Time 20.358 (16.991)	Loss 0.9930 (0.9522)	Prec@1 66.000 (66.800)
+Epoch: [74][100/123]	Time 16.135 (16.653)	Loss 1.0834 (0.9750)	Prec@1 70.000 (67.000)
+Test: [0/2]	Time 60.569 (60.569)	Loss 1.5676 (1.5676)	Prec@1 60.000 (60.000)	Prec@3 80.000 (80.000)
+ * Prec@1 55.000 Prec@3 80.000
+Current learning rate is 0.010000:
+Epoch
+75
+Dataset Size
+1212
+Epoch: [75][50/123]	Time 20.049 (17.704)	Loss 1.0533 (0.9898)	Prec@1 66.000 (66.800)
+Epoch: [75][100/123]	Time 20.213 (17.368)	Loss 1.0711 (0.9677)	Prec@1 68.000 (68.000)
+Current learning rate is 0.010000:
+Epoch
+76
+Dataset Size
+1212
+Epoch: [76][50/123]	Time 14.407 (16.160)	Loss 0.7584 (0.9886)	Prec@1 78.000 (68.600)
+Epoch: [76][100/123]	Time 13.097 (16.116)	Loss 1.0598 (0.9831)	Prec@1 66.000 (68.000)
+Current learning rate is 0.010000:
+Epoch
+77
+Dataset Size
+1212
+Epoch: [77][50/123]	Time 12.620 (16.315)	Loss 0.8821 (0.9559)	Prec@1 68.000 (69.800)
+Epoch: [77][100/123]	Time 13.003 (16.465)	Loss 0.9173 (0.9673)	Prec@1 66.000 (67.500)
+Current learning rate is 0.010000:
+Epoch
+78
+Dataset Size
+1212
+Epoch: [78][50/123]	Time 20.608 (16.699)	Loss 0.9448 (0.8523)	Prec@1 60.000 (71.800)
+Epoch: [78][100/123]	Time 18.606 (16.351)	Loss 0.8459 (0.8729)	Prec@1 70.000 (70.700)
+Current learning rate is 0.010000:
+Epoch
+79
+Dataset Size
+1212
+Epoch: [79][50/123]	Time 14.999 (16.603)	Loss 1.0170 (0.9093)	Prec@1 66.000 (70.600)
+Epoch: [79][100/123]	Time 13.537 (16.637)	Loss 0.9184 (0.9696)	Prec@1 66.000 (67.700)
+Current learning rate is 0.010000:
+Epoch
+80
+Dataset Size
+1212
+Epoch: [80][50/123]	Time 13.294 (16.237)	Loss 0.8685 (0.9717)	Prec@1 76.000 (70.000)
+Epoch: [80][100/123]	Time 13.319 (16.113)	Loss 1.0144 (0.9597)	Prec@1 64.000 (69.600)
+Current learning rate is 0.010000:
+Epoch
+81
+Dataset Size
+1212
+Epoch: [81][50/123]	Time 12.537 (16.214)	Loss 1.1470 (0.8874)	Prec@1 72.000 (71.800)
+Epoch: [81][100/123]	Time 12.813 (16.243)	Loss 1.0117 (0.9337)	Prec@1 66.000 (70.000)
+Current learning rate is 0.010000:
+Epoch
+82
+Dataset Size
+1212
+Epoch: [82][50/123]	Time 13.048 (16.243)	Loss 1.1456 (0.9627)	Prec@1 62.000 (70.200)
+Epoch: [82][100/123]	Time 13.489 (16.271)	Loss 0.9214 (0.9526)	Prec@1 74.000 (69.500)
+Current learning rate is 0.010000:
+Epoch
+83
+Dataset Size
+1212
+Epoch: [83][50/123]	Time 18.090 (16.541)	Loss 0.8231 (0.8322)	Prec@1 72.000 (72.400)
+Epoch: [83][100/123]	Time 14.590 (16.478)	Loss 1.1555 (0.8516)	Prec@1 66.000 (72.200)
+Current learning rate is 0.010000:
+Epoch
+84
+Dataset Size
+1212
+Epoch: [84][50/123]	Time 13.249 (16.373)	Loss 0.9607 (0.8932)	Prec@1 66.000 (70.600)
+Epoch: [84][100/123]	Time 14.457 (16.337)	Loss 1.1339 (0.8866)	Prec@1 56.000 (70.400)
+Current learning rate is 0.010000:
+Epoch
+85
+Dataset Size
+1212
+Epoch: [85][50/123]	Time 17.672 (16.893)	Loss 0.6746 (0.8713)	Prec@1 82.000 (71.800)
+Epoch: [85][100/123]	Time 18.045 (16.704)	Loss 0.8591 (0.8807)	Prec@1 78.000 (71.000)
+Current learning rate is 0.010000:
+Epoch
+86
+Dataset Size
+1212
+Epoch: [86][50/123]	Time 19.281 (16.753)	Loss 0.6971 (0.8383)	Prec@1 80.000 (73.200)
+Epoch: [86][100/123]	Time 19.542 (16.532)	Loss 0.8846 (0.8234)	Prec@1 78.000 (72.800)
+Current learning rate is 0.010000:
+Epoch
+87
+Dataset Size
+1212
+Epoch: [87][50/123]	Time 13.938 (16.334)	Loss 0.7140 (0.7085)	Prec@1 72.000 (76.600)
+Epoch: [87][100/123]	Time 14.653 (16.324)	Loss 1.0821 (0.8057)	Prec@1 64.000 (73.000)
+Current learning rate is 0.010000:
+Epoch
+88
+Dataset Size
+1212
+Epoch: [88][50/123]	Time 14.367 (16.411)	Loss 1.0692 (0.8083)	Prec@1 64.000 (73.400)
+Epoch: [88][100/123]	Time 14.596 (16.414)	Loss 0.6775 (0.7809)	Prec@1 70.000 (73.700)
+Current learning rate is 0.010000:
+Epoch
+89
+Dataset Size
+1212
+Epoch: [89][50/123]	Time 12.754 (16.256)	Loss 0.7843 (0.7763)	Prec@1 70.000 (74.000)
+Epoch: [89][100/123]	Time 13.479 (16.223)	Loss 0.8287 (0.7817)	Prec@1 68.000 (73.400)
+Current learning rate is 0.010000:
+Epoch
+90
+Dataset Size
+1212
+Epoch: [90][50/123]	Time 11.799 (16.631)	Loss 0.8285 (0.6759)	Prec@1 72.000 (78.600)
+Epoch: [90][100/123]	Time 12.766 (16.329)	Loss 0.5723 (0.7260)	Prec@1 80.000 (76.900)
+Current learning rate is 0.010000:
+Epoch
+91
+Dataset Size
+1212
+Epoch: [91][50/123]	Time 17.925 (16.327)	Loss 0.8146 (0.7090)	Prec@1 76.000 (77.400)
+Epoch: [91][100/123]	Time 18.327 (16.222)	Loss 0.8927 (0.6995)	Prec@1 66.000 (77.700)
+Current learning rate is 0.010000:
+Epoch
+92
+Dataset Size
+1212
+Epoch: [92][50/123]	Time 17.743 (16.679)	Loss 0.8224 (0.7550)	Prec@1 74.000 (76.600)
+Epoch: [92][100/123]	Time 21.083 (16.823)	Loss 0.9306 (0.7622)	Prec@1 68.000 (75.600)
+Current learning rate is 0.010000:
+Epoch
+93
+Dataset Size
+1212
+Epoch: [93][50/123]	Time 16.229 (16.500)	Loss 0.7218 (0.8128)	Prec@1 68.000 (72.600)
+Epoch: [93][100/123]	Time 19.179 (16.465)	Loss 0.6473 (0.7991)	Prec@1 76.000 (73.000)
+Current learning rate is 0.010000:
+Epoch
+94
+Dataset Size
+1212
+Epoch: [94][50/123]	Time 13.407 (16.649)	Loss 0.9339 (0.7691)	Prec@1 74.000 (74.600)
+Epoch: [94][100/123]	Time 13.252 (16.594)	Loss 1.2034 (0.7755)	Prec@1 60.000 (74.600)
+Current learning rate is 0.010000:
+Epoch
+95
+Dataset Size
+1212
+Epoch: [95][50/123]	Time 19.664 (16.780)	Loss 0.6793 (0.6559)	Prec@1 76.000 (76.600)
+Epoch: [95][100/123]	Time 18.951 (16.544)	Loss 0.7501 (0.6967)	Prec@1 78.000 (75.600)
+Current learning rate is 0.010000:
+Epoch
+96
+Dataset Size
+1212
+Epoch: [96][50/123]	Time 19.851 (16.639)	Loss 0.9031 (0.6567)	Prec@1 70.000 (77.200)
+Epoch: [96][100/123]	Time 19.219 (16.388)	Loss 0.8817 (0.6698)	Prec@1 72.000 (77.300)
+Current learning rate is 0.010000:
+Epoch
+97
+Dataset Size
+1212
+Epoch: [97][50/123]	Time 19.322 (16.619)	Loss 0.8056 (0.6689)	Prec@1 82.000 (78.000)
+Epoch: [97][100/123]	Time 19.171 (16.364)	Loss 0.4092 (0.6680)	Prec@1 88.000 (77.700)
+Current learning rate is 0.010000:
+Epoch
+98
+Dataset Size
+1212
+Epoch: [98][50/123]	Time 13.309 (16.600)	Loss 0.4293 (0.6329)	Prec@1 88.000 (77.800)
+Epoch: [98][100/123]	Time 14.151 (16.538)	Loss 0.4414 (0.6348)	Prec@1 84.000 (78.100)
+Current learning rate is 0.010000:
+Epoch
+99
+Dataset Size
+1212
+Epoch: [99][50/123]	Time 20.045 (17.026)	Loss 0.5760 (0.6612)	Prec@1 78.000 (77.600)
+Epoch: [99][100/123]	Time 19.330 (16.659)	Loss 0.5632 (0.6964)	Prec@1 80.000 (77.100)
+Test: [0/2]	Time 22.197 (22.197)	Loss 1.5018 (1.5018)	Prec@1 50.000 (50.000)	Prec@3 80.000 (80.000)
+ * Prec@1 45.000 Prec@3 80.000
+Current learning rate is 0.010000:
+Epoch
+100
+Dataset Size
+1212
+Epoch: [100][50/123]	Time 19.677 (17.016)	Loss 0.5094 (0.7081)	Prec@1 86.000 (77.800)
+Epoch: [100][100/123]	Time 19.712 (16.801)	Loss 0.9406 (0.7027)	Prec@1 60.000 (76.300)
+Current learning rate is 0.010000:
+Epoch
+101
+Dataset Size
+1212
+Epoch: [101][50/123]	Time 13.232 (16.410)	Loss 0.5783 (0.6899)	Prec@1 86.000 (78.200)
+Epoch: [101][100/123]	Time 13.399 (16.168)	Loss 0.6045 (0.7060)	Prec@1 80.000 (76.900)
+Current learning rate is 0.010000:
+Epoch
+102
+Dataset Size
+1212
+Epoch: [102][50/123]	Time 14.444 (16.988)	Loss 0.5328 (0.6851)	Prec@1 78.000 (76.600)
+Epoch: [102][100/123]	Time 15.609 (17.002)	Loss 0.7916 (0.6696)	Prec@1 76.000 (78.100)
+Current learning rate is 0.010000:
+Epoch
+103
+Dataset Size
+1212
+Epoch: [103][50/123]	Time 18.178 (17.021)	Loss 0.5534 (0.6957)	Prec@1 82.000 (78.200)
+Epoch: [103][100/123]	Time 17.984 (16.878)	Loss 0.6671 (0.6747)	Prec@1 78.000 (77.500)
+Current learning rate is 0.010000:
+Epoch
+104
+Dataset Size
+1212
+Epoch: [104][50/123]	Time 14.843 (16.553)	Loss 0.8665 (0.5944)	Prec@1 70.000 (81.000)
+Epoch: [104][100/123]	Time 17.137 (16.541)	Loss 0.7452 (0.5883)	Prec@1 70.000 (80.200)
+Current learning rate is 0.010000:
+Epoch
+105
+Dataset Size
+1212
+Epoch: [105][50/123]	Time 13.543 (16.822)	Loss 0.5441 (0.5692)	Prec@1 84.000 (81.600)
+Epoch: [105][100/123]	Time 13.553 (16.775)	Loss 0.5314 (0.5773)	Prec@1 84.000 (81.300)
+Current learning rate is 0.010000:
+Epoch
+106
+Dataset Size
+1212
+Epoch: [106][50/123]	Time 14.211 (16.681)	Loss 0.6040 (0.6349)	Prec@1 82.000 (80.800)
+Epoch: [106][100/123]	Time 13.397 (16.658)	Loss 0.4924 (0.6022)	Prec@1 84.000 (80.400)
+Current learning rate is 0.010000:
+Epoch
+107
+Dataset Size
+1212
+Epoch: [107][50/123]	Time 13.570 (16.853)	Loss 0.4478 (0.5658)	Prec@1 84.000 (79.400)
+Epoch: [107][100/123]	Time 13.354 (16.799)	Loss 0.7909 (0.5922)	Prec@1 70.000 (79.600)
+Current learning rate is 0.010000:
+Epoch
+108
+Dataset Size
+1212
+Epoch: [108][50/123]	Time 13.387 (16.686)	Loss 0.7299 (0.5904)	Prec@1 70.000 (78.600)
+Epoch: [108][100/123]	Time 13.759 (16.665)	Loss 0.6033 (0.6207)	Prec@1 78.000 (78.300)
+Current learning rate is 0.010000:
+Epoch
+109
+Dataset Size
+1212
+Epoch: [109][50/123]	Time 13.502 (16.793)	Loss 0.6635 (0.6478)	Prec@1 78.000 (79.600)
+Epoch: [109][100/123]	Time 16.530 (16.790)	Loss 0.7265 (0.6279)	Prec@1 78.000 (79.500)
+Current learning rate is 0.010000:
+Epoch
+110
+Dataset Size
+1212
+Epoch: [110][50/123]	Time 13.829 (16.785)	Loss 0.7491 (0.6191)	Prec@1 66.000 (78.800)
+Epoch: [110][100/123]	Time 14.182 (16.701)	Loss 0.7425 (0.6191)	Prec@1 72.000 (78.800)
+Current learning rate is 0.010000:
+Epoch
+111
+Dataset Size
+1212
+Epoch: [111][50/123]	Time 13.200 (16.835)	Loss 0.6265 (0.5176)	Prec@1 74.000 (82.000)
+Epoch: [111][100/123]	Time 14.264 (16.839)	Loss 0.5241 (0.5438)	Prec@1 84.000 (81.900)
+Current learning rate is 0.010000:
+Epoch
+112
+Dataset Size
+1212
+Epoch: [112][50/123]	Time 13.028 (16.594)	Loss 0.3627 (0.5278)	Prec@1 92.000 (82.600)
+Epoch: [112][100/123]	Time 12.306 (16.282)	Loss 0.6846 (0.5527)	Prec@1 74.000 (81.900)
+Current learning rate is 0.010000:
+Epoch
+113
+Dataset Size
+1212
+Epoch: [113][50/123]	Time 13.173 (16.677)	Loss 0.6979 (0.5028)	Prec@1 82.000 (84.800)
+Epoch: [113][100/123]	Time 13.698 (16.684)	Loss 0.6007 (0.5515)	Prec@1 78.000 (82.500)
+Current learning rate is 0.010000:
+Epoch
+114
+Dataset Size
+1212
+Epoch: [114][50/123]	Time 16.030 (16.397)	Loss 0.5546 (0.5181)	Prec@1 84.000 (83.000)
+Epoch: [114][100/123]	Time 14.186 (16.343)	Loss 0.6465 (0.5618)	Prec@1 78.000 (81.500)
+Current learning rate is 0.010000:
+Epoch
+115
+Dataset Size
+1212
+Epoch: [115][50/123]	Time 13.820 (16.843)	Loss 0.3626 (0.5358)	Prec@1 90.000 (82.800)
+Epoch: [115][100/123]	Time 14.701 (16.896)	Loss 0.4606 (0.5193)	Prec@1 88.000 (83.100)
+Current learning rate is 0.010000:
+Epoch
+116
+Dataset Size
+1212
+Epoch: [116][50/123]	Time 14.714 (16.599)	Loss 0.5081 (0.5424)	Prec@1 84.000 (81.600)
+Epoch: [116][100/123]	Time 15.338 (16.514)	Loss 0.6831 (0.6166)	Prec@1 80.000 (79.800)
+Current learning rate is 0.010000:
+Epoch
+117
+Dataset Size
+1212
+Epoch: [117][50/123]	Time 13.698 (16.845)	Loss 0.8604 (0.6148)	Prec@1 72.000 (80.400)
+Epoch: [117][100/123]	Time 13.129 (16.744)	Loss 0.7440 (0.5966)	Prec@1 86.000 (82.300)
+Current learning rate is 0.010000:
+Epoch
+118
+Dataset Size
+1212
+Epoch: [118][50/123]	Time 13.367 (16.713)	Loss 0.6297 (0.5673)	Prec@1 78.000 (81.000)
+Epoch: [118][100/123]	Time 12.220 (16.576)	Loss 0.8605 (0.6070)	Prec@1 74.000 (79.900)
+Current learning rate is 0.010000:
+Epoch
+119
+Dataset Size
+1212
+Epoch: [119][50/123]	Time 13.933 (16.434)	Loss 0.5428 (0.4552)	Prec@1 82.000 (85.000)
+Epoch: [119][100/123]	Time 13.216 (16.434)	Loss 0.7320 (0.5135)	Prec@1 78.000 (83.000)
+Current learning rate is 0.010000:
+Epoch
+120
+Dataset Size
+1212
+Epoch: [120][50/123]	Time 15.758 (16.798)	Loss 0.3816 (0.5461)	Prec@1 88.000 (82.000)
+Epoch: [120][100/123]	Time 18.568 (16.814)	Loss 0.5377 (0.5168)	Prec@1 78.000 (82.900)
+Current learning rate is 0.010000:
+Epoch
+121
+Dataset Size
+1212
+Epoch: [121][50/123]	Time 16.514 (16.923)	Loss 0.8687 (0.5424)	Prec@1 74.000 (83.800)
+Epoch: [121][100/123]	Time 18.315 (16.848)	Loss 0.6097 (0.5421)	Prec@1 80.000 (82.500)
+Current learning rate is 0.010000:
+Epoch
+122
+Dataset Size
+1212
+Epoch: [122][50/123]	Time 18.646 (16.474)	Loss 0.4960 (0.4553)	Prec@1 82.000 (85.400)
+Epoch: [122][100/123]	Time 18.657 (16.309)	Loss 0.5558 (0.4990)	Prec@1 86.000 (82.700)
+Current learning rate is 0.010000:
+Epoch
+123
+Dataset Size
+1212
+Epoch: [123][50/123]	Time 15.303 (16.405)	Loss 0.6002 (0.5292)	Prec@1 80.000 (82.600)
+Epoch: [123][100/123]	Time 13.321 (16.446)	Loss 0.5377 (0.5019)	Prec@1 76.000 (83.700)
+Current learning rate is 0.010000:
+Epoch
+124
+Dataset Size
+1212
+Epoch: [124][50/123]	Time 14.550 (16.609)	Loss 0.5214 (0.4740)	Prec@1 84.000 (84.800)
+Epoch: [124][100/123]	Time 18.898 (16.693)	Loss 0.3999 (0.4938)	Prec@1 86.000 (84.100)
+Test: [0/2]	Time 21.401 (21.401)	Loss 0.7204 (0.7204)	Prec@1 60.000 (60.000)	Prec@3 90.000 (90.000)
+ * Prec@1 65.000 Prec@3 95.000
+Current learning rate is 0.010000:
+Epoch
+125
+Dataset Size
+1212
+Epoch: [125][50/123]	Time 14.167 (17.075)	Loss 0.4341 (0.4351)	Prec@1 82.000 (85.200)
+Epoch: [125][100/123]	Time 13.707 (16.967)	Loss 0.4519 (0.4625)	Prec@1 86.000 (84.100)
+Current learning rate is 0.010000:
+Epoch
+126
+Dataset Size
+1212
+Epoch: [126][50/123]	Time 13.162 (16.705)	Loss 0.2588 (0.4235)	Prec@1 94.000 (86.800)
+Epoch: [126][100/123]	Time 13.140 (16.513)	Loss 0.4137 (0.4569)	Prec@1 84.000 (85.200)
+Current learning rate is 0.010000:
+Epoch
+127
+Dataset Size
+1212
+Epoch: [127][50/123]	Time 16.022 (16.644)	Loss 0.6643 (0.5140)	Prec@1 82.000 (82.800)
+Epoch: [127][100/123]	Time 13.964 (16.441)	Loss 0.5146 (0.4936)	Prec@1 88.000 (84.700)
+Current learning rate is 0.010000:
+Epoch
+128
+Dataset Size
+1212
+Epoch: [128][50/123]	Time 16.182 (16.236)	Loss 0.7510 (0.4379)	Prec@1 76.000 (85.400)
+Epoch: [128][100/123]	Time 18.500 (16.092)	Loss 0.4294 (0.4680)	Prec@1 84.000 (84.000)
+Current learning rate is 0.010000:
+Epoch
+129
+Dataset Size
+1212
+Epoch: [129][50/123]	Time 13.023 (16.791)	Loss 0.2868 (0.4131)	Prec@1 94.000 (87.400)
+Epoch: [129][100/123]	Time 13.153 (16.757)	Loss 0.4193 (0.4508)	Prec@1 86.000 (85.800)
+Current learning rate is 0.010000:
+Epoch
+130
+Dataset Size
+1212
+Epoch: [130][50/123]	Time 13.249 (17.058)	Loss 0.4199 (0.4209)	Prec@1 88.000 (86.400)
+Epoch: [130][100/123]	Time 13.618 (16.868)	Loss 0.3859 (0.4164)	Prec@1 84.000 (87.200)
+Current learning rate is 0.010000:
+Epoch
+131
+Dataset Size
+1212
+Epoch: [131][50/123]	Time 13.297 (17.114)	Loss 0.4827 (0.4166)	Prec@1 78.000 (85.200)
+Epoch: [131][100/123]	Time 13.895 (17.064)	Loss 0.4220 (0.4251)	Prec@1 86.000 (86.300)
+Current learning rate is 0.010000:
+Epoch
+132
+Dataset Size
+1212
+Epoch: [132][50/123]	Time 13.262 (16.801)	Loss 0.3654 (0.3895)	Prec@1 90.000 (86.800)
+Epoch: [132][100/123]	Time 13.126 (16.643)	Loss 0.5773 (0.4332)	Prec@1 80.000 (86.400)
+Current learning rate is 0.010000:
+Epoch
+133
+Dataset Size
+1212
+Epoch: [133][50/123]	Time 15.980 (16.648)	Loss 0.2631 (0.3529)	Prec@1 90.000 (88.400)
+Epoch: [133][100/123]	Time 14.460 (16.499)	Loss 0.4831 (0.4071)	Prec@1 86.000 (86.400)
+Current learning rate is 0.010000:
+Epoch
+134
+Dataset Size
+1212
+Epoch: [134][50/123]	Time 18.485 (16.692)	Loss 0.6384 (0.4182)	Prec@1 78.000 (86.600)
+Epoch: [134][100/123]	Time 20.263 (16.684)	Loss 0.3459 (0.4334)	Prec@1 90.000 (86.400)
+Current learning rate is 0.010000:
+Epoch
+135
+Dataset Size
+1212
+Epoch: [135][50/123]	Time 19.262 (17.113)	Loss 0.4319 (0.4280)	Prec@1 88.000 (86.000)
+Epoch: [135][100/123]	Time 21.075 (16.891)	Loss 0.4008 (0.4073)	Prec@1 82.000 (86.400)
+Current learning rate is 0.010000:
+Epoch
+136
+Dataset Size
+1212
+Epoch: [136][50/123]	Time 13.656 (16.695)	Loss 0.4851 (0.3729)	Prec@1 82.000 (87.000)
+Epoch: [136][100/123]	Time 12.585 (16.588)	Loss 0.4823 (0.3931)	Prec@1 84.000 (87.400)
+Current learning rate is 0.010000:
+Epoch
+137
+Dataset Size
+1212
+Epoch: [137][50/123]	Time 17.074 (16.940)	Loss 0.5004 (0.4085)	Prec@1 86.000 (87.400)
+Epoch: [137][100/123]	Time 19.073 (16.871)	Loss 0.4586 (0.4555)	Prec@1 84.000 (85.000)
+Current learning rate is 0.010000:
+Epoch
+138
+Dataset Size
+1212
+Epoch: [138][50/123]	Time 15.335 (16.854)	Loss 0.5520 (0.4153)	Prec@1 88.000 (87.400)
+Epoch: [138][100/123]	Time 18.061 (16.865)	Loss 0.3799 (0.4154)	Prec@1 86.000 (87.400)
+Current learning rate is 0.010000:
+Epoch
+139
+Dataset Size
+1212
+Epoch: [139][50/123]	Time 12.996 (16.698)	Loss 0.4017 (0.3958)	Prec@1 90.000 (87.600)
+Epoch: [139][100/123]	Time 13.165 (16.559)	Loss 0.3889 (0.3683)	Prec@1 86.000 (88.600)
+Current learning rate is 0.010000:
+Epoch
+140
+Dataset Size
+1212
+Epoch: [140][50/123]	Time 17.553 (16.895)	Loss 0.3383 (0.3781)	Prec@1 88.000 (88.000)
+Epoch: [140][100/123]	Time 15.606 (16.715)	Loss 0.4734 (0.4045)	Prec@1 84.000 (86.800)
+Current learning rate is 0.010000:
+Epoch
+141
+Dataset Size
+1212
+Epoch: [141][50/123]	Time 15.148 (16.673)	Loss 0.3014 (0.3293)	Prec@1 90.000 (90.200)
+Epoch: [141][100/123]	Time 18.421 (16.578)	Loss 0.3224 (0.3620)	Prec@1 92.000 (89.700)
+Current learning rate is 0.010000:
+Epoch
+142
+Dataset Size
+1212
+Epoch: [142][50/123]	Time 13.079 (16.696)	Loss 0.2514 (0.3366)	Prec@1 92.000 (89.000)
+Epoch: [142][100/123]	Time 12.907 (16.504)	Loss 0.4196 (0.3916)	Prec@1 86.000 (86.700)
+Current learning rate is 0.010000:
+Epoch
+143
+Dataset Size
+1212
+Epoch: [143][50/123]	Time 20.192 (16.769)	Loss 0.3623 (0.3509)	Prec@1 86.000 (90.800)
+Epoch: [143][100/123]	Time 19.558 (16.651)	Loss 0.3488 (0.4048)	Prec@1 88.000 (87.700)
+Current learning rate is 0.010000:
+Epoch
+144
+Dataset Size
+1212
+Epoch: [144][50/123]	Time 13.306 (16.619)	Loss 0.2560 (0.3297)	Prec@1 92.000 (90.400)
+Epoch: [144][100/123]	Time 15.503 (16.735)	Loss 0.2311 (0.3411)	Prec@1 92.000 (89.200)
+Current learning rate is 0.010000:
+Epoch
+145
+Dataset Size
+1212
+Epoch: [145][50/123]	Time 13.291 (16.975)	Loss 0.3585 (0.3620)	Prec@1 90.000 (88.000)
+Epoch: [145][100/123]	Time 13.291 (16.771)	Loss 0.3615 (0.3485)	Prec@1 86.000 (88.900)
+Current learning rate is 0.010000:
+Epoch
+146
+Dataset Size
+1212
+Epoch: [146][50/123]	Time 13.554 (16.810)	Loss 0.4336 (0.3452)	Prec@1 86.000 (89.200)
+Epoch: [146][100/123]	Time 13.482 (16.819)	Loss 0.3411 (0.3756)	Prec@1 88.000 (87.900)
+Current learning rate is 0.010000:
+Epoch
+147
+Dataset Size
+1212
+Epoch: [147][50/123]	Time 13.263 (16.561)	Loss 0.2495 (0.3104)	Prec@1 94.000 (90.800)
+Epoch: [147][100/123]	Time 13.794 (16.667)	Loss 0.4340 (0.3118)	Prec@1 82.000 (90.400)
+Current learning rate is 0.010000:
+Epoch
+148
+Dataset Size
+1212
+Epoch: [148][50/123]	Time 12.603 (16.718)	Loss 0.5893 (0.3951)	Prec@1 82.000 (88.400)
+Epoch: [148][100/123]	Time 13.135 (16.660)	Loss 0.4433 (0.3810)	Prec@1 86.000 (88.300)
+Current learning rate is 0.010000:
+Epoch
+149
+Dataset Size
+1212
+Epoch: [149][50/123]	Time 13.194 (16.773)	Loss 0.3916 (0.3953)	Prec@1 90.000 (88.400)
+Epoch: [149][100/123]	Time 13.487 (16.811)	Loss 0.4028 (0.3851)	Prec@1 92.000 (88.800)
+Test: [0/2]	Time 20.432 (20.432)	Loss 2.4050 (2.4050)	Prec@1 50.000 (50.000)	Prec@3 80.000 (80.000)
+ * Prec@1 45.000 Prec@3 65.000
+Current learning rate is 0.010000:
+Epoch
+150
+Dataset Size
+1212
+Epoch: [150][50/123]	Time 13.756 (16.853)	Loss 0.2391 (0.3453)	Prec@1 92.000 (89.200)
+Epoch: [150][100/123]	Time 13.559 (16.830)	Loss 0.3460 (0.3437)	Prec@1 86.000 (88.800)
+Current learning rate is 0.010000:
+Epoch
+151
+Dataset Size
+1212
+Epoch: [151][50/123]	Time 14.249 (16.532)	Loss 0.3350 (0.3183)	Prec@1 90.000 (90.000)
+Epoch: [151][100/123]	Time 19.463 (16.461)	Loss 0.2043 (0.3597)	Prec@1 92.000 (88.700)
+Current learning rate is 0.010000:
+Epoch
+152
+Dataset Size
+1212
+Epoch: [152][50/123]	Time 14.590 (16.754)	Loss 0.2953 (0.3610)	Prec@1 92.000 (87.200)
+Epoch: [152][100/123]	Time 15.121 (16.655)	Loss 0.4021 (0.3940)	Prec@1 86.000 (87.000)
+Current learning rate is 0.010000:
+Epoch
+153
+Dataset Size
+1212
+Epoch: [153][50/123]	Time 16.110 (16.860)	Loss 0.2053 (0.3184)	Prec@1 96.000 (88.800)
+Epoch: [153][100/123]	Time 15.196 (16.711)	Loss 0.3298 (0.3185)	Prec@1 92.000 (89.600)
+Current learning rate is 0.010000:
+Epoch
+154
+Dataset Size
+1212
+Epoch: [154][50/123]	Time 13.600 (16.939)	Loss 0.2519 (0.2673)	Prec@1 92.000 (90.800)
+Epoch: [154][100/123]	Time 13.300 (16.866)	Loss 0.4097 (0.3124)	Prec@1 84.000 (88.500)
+Current learning rate is 0.010000:
+Epoch
+155
+Dataset Size
+1212
+Epoch: [155][50/123]	Time 13.350 (16.737)	Loss 0.2853 (0.3364)	Prec@1 92.000 (88.600)
+Epoch: [155][100/123]	Time 13.194 (16.782)	Loss 0.2977 (0.3348)	Prec@1 90.000 (88.600)
+Current learning rate is 0.010000:
+Epoch
+156
+Dataset Size
+1212
+Epoch: [156][50/123]	Time 13.659 (16.952)	Loss 0.3408 (0.3384)	Prec@1 90.000 (89.800)
+Epoch: [156][100/123]	Time 13.241 (16.866)	Loss 0.2948 (0.3584)	Prec@1 90.000 (88.200)
+Current learning rate is 0.010000:
+Epoch
+157
+Dataset Size
+1212
+Epoch: [157][50/123]	Time 14.582 (16.740)	Loss 0.3675 (0.3452)	Prec@1 86.000 (90.200)
+Epoch: [157][100/123]	Time 13.819 (16.726)	Loss 0.2506 (0.3233)	Prec@1 96.000 (90.100)
+Current learning rate is 0.010000:
+Epoch
+158
+Dataset Size
+1212
+Epoch: [158][50/123]	Time 14.744 (16.851)	Loss 0.5273 (0.3519)	Prec@1 84.000 (88.800)
+Epoch: [158][100/123]	Time 14.433 (16.821)	Loss 0.4798 (0.3508)	Prec@1 88.000 (88.500)
+Current learning rate is 0.010000:
+Epoch
+159
+Dataset Size
+1212
+Epoch: [159][50/123]	Time 13.169 (16.895)	Loss 0.4578 (0.3377)	Prec@1 90.000 (89.800)
+Epoch: [159][100/123]	Time 13.554 (16.968)	Loss 0.3540 (0.3374)	Prec@1 92.000 (89.600)
+Current learning rate is 0.010000:
+Epoch
+160
+Dataset Size
+1212
+Epoch: [160][50/123]	Time 13.507 (17.527)	Loss 0.4428 (0.3457)	Prec@1 82.000 (89.200)
+Epoch: [160][100/123]	Time 13.450 (17.193)	Loss 0.2722 (0.3734)	Prec@1 90.000 (87.400)
+Current learning rate is 0.010000:
+Epoch
+161
+Dataset Size
+1212
+Epoch: [161][50/123]	Time 12.832 (16.585)	Loss 0.1900 (0.3186)	Prec@1 94.000 (89.200)
+Epoch: [161][100/123]	Time 19.080 (16.605)	Loss 0.3066 (0.3629)	Prec@1 92.000 (88.200)
+Current learning rate is 0.010000:
+Epoch
+162
+Dataset Size
+1212
+Epoch: [162][50/123]	Time 16.951 (17.039)	Loss 0.2598 (0.3236)	Prec@1 94.000 (90.200)
+Epoch: [162][100/123]	Time 17.123 (16.936)	Loss 0.3721 (0.3400)	Prec@1 88.000 (89.400)
+Current learning rate is 0.010000:
+Epoch
+163
+Dataset Size
+1212
+Epoch: [163][50/123]	Time 17.024 (17.039)	Loss 0.3782 (0.2886)	Prec@1 84.000 (90.600)
+Epoch: [163][100/123]	Time 14.871 (16.947)	Loss 0.5200 (0.3107)	Prec@1 84.000 (89.900)
+Current learning rate is 0.010000:
+Epoch
+164
+Dataset Size
+1212
+Epoch: [164][50/123]	Time 14.015 (17.044)	Loss 0.2467 (0.3056)	Prec@1 94.000 (91.400)
+Epoch: [164][100/123]	Time 13.479 (16.978)	Loss 0.4412 (0.3158)	Prec@1 82.000 (90.600)
+Current learning rate is 0.010000:
+Epoch
+165
+Dataset Size
+1212
+Epoch: [165][50/123]	Time 13.453 (17.060)	Loss 0.3281 (0.2788)	Prec@1 90.000 (91.400)
+Epoch: [165][100/123]	Time 13.825 (17.092)	Loss 0.2345 (0.2944)	Prec@1 94.000 (90.500)
+Current learning rate is 0.010000:
+Epoch
+166
+Dataset Size
+1212
+Epoch: [166][50/123]	Time 14.715 (17.119)	Loss 0.3436 (0.2850)	Prec@1 90.000 (91.400)
+Epoch: [166][100/123]	Time 18.026 (16.940)	Loss 0.2852 (0.3103)	Prec@1 88.000 (90.900)
+Current learning rate is 0.010000:
+Epoch
+167
+Dataset Size
+1212
+Epoch: [167][50/123]	Time 13.918 (17.196)	Loss 0.1569 (0.2600)	Prec@1 98.000 (91.200)
+Epoch: [167][100/123]	Time 14.469 (16.909)	Loss 0.2954 (0.2632)	Prec@1 92.000 (92.400)
+Current learning rate is 0.010000:
+Epoch
+168
+Dataset Size
+1212
+Epoch: [168][50/123]	Time 14.223 (17.078)	Loss 0.3183 (0.2918)	Prec@1 90.000 (91.600)
+Epoch: [168][100/123]	Time 14.016 (17.081)	Loss 0.3505 (0.2954)	Prec@1 88.000 (91.400)
+Current learning rate is 0.010000:
+Epoch
+169
+Dataset Size
+1212
+Epoch: [169][50/123]	Time 13.239 (16.933)	Loss 0.2457 (0.2971)	Prec@1 94.000 (91.600)
+Epoch: [169][100/123]	Time 14.265 (16.943)	Loss 0.2369 (0.2898)	Prec@1 92.000 (91.400)
+Current learning rate is 0.010000:
+Epoch
+170
+Dataset Size
+1212
+Epoch: [170][50/123]	Time 13.485 (17.035)	Loss 0.2144 (0.3235)	Prec@1 94.000 (89.000)
+Epoch: [170][100/123]	Time 13.694 (16.913)	Loss 0.1452 (0.2880)	Prec@1 96.000 (90.700)
+Current learning rate is 0.010000:
+Epoch
+171
+Dataset Size
+1212
+Epoch: [171][50/123]	Time 13.095 (16.789)	Loss 0.2884 (0.2910)	Prec@1 90.000 (90.200)
+Epoch: [171][100/123]	Time 14.812 (17.045)	Loss 0.1567 (0.2799)	Prec@1 96.000 (90.600)
+Current learning rate is 0.010000:
+Epoch
+172
+Dataset Size
+1212
+Epoch: [172][50/123]	Time 13.119 (16.705)	Loss 0.2558 (0.3016)	Prec@1 92.000 (89.800)
+Epoch: [172][100/123]	Time 13.637 (16.568)	Loss 0.2857 (0.2696)	Prec@1 92.000 (90.900)
+Current learning rate is 0.010000:
+Epoch
+173
+Dataset Size
+1212
+Epoch: [173][50/123]	Time 15.171 (17.205)	Loss 0.2813 (0.2855)	Prec@1 92.000 (91.600)
+Epoch: [173][100/123]	Time 14.509 (17.212)	Loss 0.2696 (0.3005)	Prec@1 92.000 (90.800)
+Current learning rate is 0.010000:
+Epoch
+174
+Dataset Size
+1212
+Epoch: [174][50/123]	Time 14.343 (17.245)	Loss 0.4344 (0.3016)	Prec@1 86.000 (91.200)
+Epoch: [174][100/123]	Time 15.372 (17.080)	Loss 0.2231 (0.2799)	Prec@1 94.000 (91.500)
+Test: [0/2]	Time 23.669 (23.669)	Loss 1.0193 (1.0193)	Prec@1 80.000 (80.000)	Prec@3 90.000 (90.000)
+ * Prec@1 65.000 Prec@3 90.000
+Current learning rate is 0.010000:
+Epoch
+175
+Dataset Size
+1212
+Epoch: [175][50/123]	Time 13.321 (17.075)	Loss 0.3456 (0.2696)	Prec@1 88.000 (91.000)
+Epoch: [175][100/123]	Time 15.089 (17.102)	Loss 0.3509 (0.2881)	Prec@1 86.000 (91.500)
+Current learning rate is 0.010000:
+Epoch
+176
+Dataset Size
+1212
+Epoch: [176][50/123]	Time 15.146 (17.106)	Loss 0.2672 (0.2762)	Prec@1 92.000 (92.200)
+Epoch: [176][100/123]	Time 15.620 (16.917)	Loss 0.2255 (0.2763)	Prec@1 96.000 (92.200)
+Current learning rate is 0.010000:
+Epoch
+177
+Dataset Size
+1212
+Epoch: [177][50/123]	Time 14.530 (16.930)	Loss 0.2432 (0.2927)	Prec@1 92.000 (90.400)
+Epoch: [177][100/123]	Time 14.328 (16.987)	Loss 0.2725 (0.3039)	Prec@1 96.000 (90.600)
+Current learning rate is 0.010000:
+Epoch
+178
+Dataset Size
+1212
+Epoch: [178][50/123]	Time 13.108 (16.786)	Loss 0.2014 (0.2130)	Prec@1 92.000 (93.200)
+Epoch: [178][100/123]	Time 13.382 (16.636)	Loss 0.2169 (0.2533)	Prec@1 96.000 (92.600)
+Current learning rate is 0.010000:
+Epoch
+179
+Dataset Size
+1212
+Epoch: [179][50/123]	Time 13.517 (16.805)	Loss 0.3799 (0.2438)	Prec@1 86.000 (93.000)
+Epoch: [179][100/123]	Time 13.001 (16.719)	Loss 0.2587 (0.2572)	Prec@1 92.000 (92.300)
+Current learning rate is 0.010000:
+Epoch
+180
+Dataset Size
+1212
+Epoch: [180][50/123]	Time 16.117 (16.558)	Loss 0.2357 (0.2522)	Prec@1 92.000 (91.800)
+Epoch: [180][100/123]	Time 15.059 (16.451)	Loss 0.5261 (0.2728)	Prec@1 84.000 (91.300)
+Current learning rate is 0.010000:
+Epoch
+181
+Dataset Size
+1212
+Epoch: [181][50/123]	Time 16.128 (16.671)	Loss 0.2605 (0.2348)	Prec@1 94.000 (94.000)
+Epoch: [181][100/123]	Time 19.260 (16.593)	Loss 0.3537 (0.2711)	Prec@1 90.000 (92.000)
+Current learning rate is 0.010000:
+Epoch
+182
+Dataset Size
+1212
+Epoch: [182][50/123]	Time 13.113 (16.741)	Loss 0.3627 (0.2407)	Prec@1 88.000 (92.000)
+Epoch: [182][100/123]	Time 12.956 (16.701)	Loss 0.1505 (0.2571)	Prec@1 96.000 (91.500)
+Current learning rate is 0.010000:
+Epoch
+183
+Dataset Size
+1212
+Epoch: [183][50/123]	Time 12.619 (16.270)	Loss 0.2527 (0.2290)	Prec@1 90.000 (92.800)
+Epoch: [183][100/123]	Time 12.815 (16.172)	Loss 0.2129 (0.2428)	Prec@1 90.000 (92.800)
+Current learning rate is 0.010000:
+Epoch
+184
+Dataset Size
+1212
+Epoch: [184][50/123]	Time 14.605 (16.492)	Loss 0.1618 (0.2005)	Prec@1 98.000 (94.800)
+Epoch: [184][100/123]	Time 15.327 (16.558)	Loss 0.1140 (0.2099)	Prec@1 96.000 (94.400)
+Current learning rate is 0.010000:
+Epoch
+185
+Dataset Size
+1212
+Epoch: [185][50/123]	Time 13.977 (16.904)	Loss 0.2407 (0.2757)	Prec@1 94.000 (90.400)
+Epoch: [185][100/123]	Time 15.664 (16.795)	Loss 0.1302 (0.2505)	Prec@1 98.000 (91.500)
+Current learning rate is 0.010000:
+Epoch
+186
+Dataset Size
+1212
+Epoch: [186][50/123]	Time 13.474 (16.871)	Loss 0.1457 (0.2439)	Prec@1 96.000 (92.200)
+Epoch: [186][100/123]	Time 14.082 (16.843)	Loss 0.2638 (0.2337)	Prec@1 94.000 (93.100)
+Current learning rate is 0.010000:
+Epoch
+187
+Dataset Size
+1212
+Epoch: [187][50/123]	Time 12.898 (16.682)	Loss 0.1740 (0.2287)	Prec@1 94.000 (93.200)
+Epoch: [187][100/123]	Time 15.435 (16.583)	Loss 0.2255 (0.2583)	Prec@1 94.000 (92.300)
+Current learning rate is 0.010000:
+Epoch
+188
+Dataset Size
+1212
+Epoch: [188][50/123]	Time 13.499 (16.675)	Loss 0.2195 (0.2218)	Prec@1 90.000 (93.800)
+Epoch: [188][100/123]	Time 13.195 (16.732)	Loss 0.2128 (0.2444)	Prec@1 96.000 (92.700)
+Current learning rate is 0.010000:
+Epoch
+189
+Dataset Size
+1212
+Epoch: [189][50/123]	Time 13.340 (16.791)	Loss 0.2679 (0.2427)	Prec@1 94.000 (93.200)
+Epoch: [189][100/123]	Time 13.666 (17.093)	Loss 0.3006 (0.2521)	Prec@1 92.000 (93.100)
+Current learning rate is 0.010000:
+Epoch
+190
+Dataset Size
+1212
+Epoch: [190][50/123]	Time 13.757 (16.983)	Loss 0.1621 (0.1777)	Prec@1 96.000 (94.800)
+Epoch: [190][100/123]	Time 12.876 (16.767)	Loss 0.3149 (0.1945)	Prec@1 90.000 (93.600)
+Current learning rate is 0.010000:
+Epoch
+191
+Dataset Size
+1212
+Epoch: [191][50/123]	Time 16.756 (16.871)	Loss 0.1392 (0.2709)	Prec@1 96.000 (92.200)
+Epoch: [191][100/123]	Time 18.874 (16.713)	Loss 0.2720 (0.2662)	Prec@1 96.000 (91.800)
+Current learning rate is 0.010000:
+Epoch
+192
+Dataset Size
+1212
+Epoch: [192][50/123]	Time 17.790 (16.869)	Loss 0.2666 (0.1997)	Prec@1 92.000 (94.600)
+Epoch: [192][100/123]	Time 15.929 (16.679)	Loss 0.2826 (0.2079)	Prec@1 94.000 (94.000)
+Current learning rate is 0.010000:
+Epoch
+193
+Dataset Size
+1212
+Epoch: [193][50/123]	Time 14.665 (16.664)	Loss 0.2290 (0.1854)	Prec@1 88.000 (94.200)
+Epoch: [193][100/123]	Time 16.146 (16.664)	Loss 0.2034 (0.1852)	Prec@1 96.000 (94.800)
+Current learning rate is 0.010000:
+Epoch
+194
+Dataset Size
+1212
+Epoch: [194][50/123]	Time 13.171 (16.831)	Loss 0.2379 (0.2170)	Prec@1 92.000 (93.000)
+Epoch: [194][100/123]	Time 16.518 (16.825)	Loss 0.1179 (0.2044)	Prec@1 98.000 (93.800)
+Current learning rate is 0.010000:
+Epoch
+195
+Dataset Size
+1212
+Epoch: [195][50/123]	Time 13.896 (16.956)	Loss 0.1770 (0.2116)	Prec@1 96.000 (94.400)
+Epoch: [195][100/123]	Time 12.607 (16.957)	Loss 0.2534 (0.2162)	Prec@1 90.000 (93.700)
+Current learning rate is 0.010000:
+Epoch
+196
+Dataset Size
+1212
+Epoch: [196][50/123]	Time 14.730 (16.741)	Loss 0.1886 (0.2180)	Prec@1 96.000 (93.600)
+Epoch: [196][100/123]	Time 13.183 (16.582)	Loss 0.2069 (0.2266)	Prec@1 92.000 (93.100)
+Current learning rate is 0.010000:
+Epoch
+197
+Dataset Size
+1212
+Epoch: [197][50/123]	Time 14.198 (16.685)	Loss 0.2993 (0.2375)	Prec@1 88.000 (91.800)
+Epoch: [197][100/123]	Time 14.739 (16.606)	Loss 0.2232 (0.2428)	Prec@1 88.000 (91.900)
+Current learning rate is 0.010000:
+Epoch
+198
+Dataset Size
+1212
+Epoch: [198][50/123]	Time 12.447 (16.676)	Loss 0.1215 (0.1723)	Prec@1 96.000 (95.200)
+Epoch: [198][100/123]	Time 12.502 (16.678)	Loss 0.2590 (0.1991)	Prec@1 92.000 (94.500)
+Current learning rate is 0.010000:
+Epoch
+199
+Dataset Size
+1212
+Epoch: [199][50/123]	Time 12.327 (16.670)	Loss 0.2218 (0.2306)	Prec@1 92.000 (93.400)
+Epoch: [199][100/123]	Time 15.341 (16.710)	Loss 0.2879 (0.2487)	Prec@1 88.000 (92.300)
+Test: [0/2]	Time 29.801 (29.801)	Loss 0.9672 (0.9672)	Prec@1 70.000 (70.000)	Prec@3 100.000 (100.000)
+ * Prec@1 75.000 Prec@3 95.000
+Current learning rate is 0.001000:
+Epoch
+200
+Dataset Size
+1212
+Epoch: [200][50/123]	Time 13.617 (17.223)	Loss 0.2314 (0.2513)	Prec@1 92.000 (91.800)
+Epoch: [200][100/123]	Time 13.312 (16.884)	Loss 0.2385 (0.2108)	Prec@1 92.000 (93.400)
+Current learning rate is 0.001000:
+Epoch
+201
+Dataset Size
+1212
+Epoch: [201][50/123]	Time 12.789 (16.920)	Loss 0.2300 (0.1682)	Prec@1 92.000 (95.200)
+Epoch: [201][100/123]	Time 16.012 (16.804)	Loss 0.1128 (0.1556)	Prec@1 96.000 (95.600)
+Current learning rate is 0.001000:
+Epoch
+202
+Dataset Size
+1212
+Epoch: [202][50/123]	Time 17.277 (16.907)	Loss 0.2743 (0.1612)	Prec@1 94.000 (94.800)
+Epoch: [202][100/123]	Time 19.298 (16.775)	Loss 0.1660 (0.1565)	Prec@1 94.000 (95.600)
+Current learning rate is 0.001000:
+Epoch
+203
+Dataset Size
+1212
+Epoch: [203][50/123]	Time 16.913 (16.805)	Loss 0.0389 (0.1177)	Prec@1 100.000 (97.000)
+Epoch: [203][100/123]	Time 16.597 (16.868)	Loss 0.1231 (0.1242)	Prec@1 98.000 (96.900)
+Current learning rate is 0.001000:
+Epoch
+204
+Dataset Size
+1212
+Epoch: [204][50/123]	Time 13.984 (16.999)	Loss 0.0709 (0.1372)	Prec@1 100.000 (96.600)
+Epoch: [204][100/123]	Time 13.554 (16.921)	Loss 0.1354 (0.1230)	Prec@1 96.000 (97.000)
+Current learning rate is 0.001000:
+Epoch
+205
+Dataset Size
+1212
+Epoch: [205][50/123]	Time 12.959 (16.657)	Loss 0.1202 (0.1139)	Prec@1 96.000 (96.600)
+Epoch: [205][100/123]	Time 15.541 (16.679)	Loss 0.2066 (0.1091)	Prec@1 96.000 (97.100)
+Current learning rate is 0.001000:
+Epoch
+206
+Dataset Size
+1212
+Epoch: [206][50/123]	Time 14.464 (16.854)	Loss 0.1641 (0.1086)	Prec@1 96.000 (97.600)
+Epoch: [206][100/123]	Time 19.484 (16.857)	Loss 0.2333 (0.1122)	Prec@1 92.000 (97.300)
+Current learning rate is 0.001000:
+Epoch
+207
+Dataset Size
+1212
+Epoch: [207][50/123]	Time 12.656 (16.807)	Loss 0.0506 (0.1176)	Prec@1 100.000 (96.800)
+Epoch: [207][100/123]	Time 13.363 (16.814)	Loss 0.1231 (0.1235)	Prec@1 98.000 (96.700)
+Current learning rate is 0.001000:
+Epoch
+208
+Dataset Size
+1212
+Epoch: [208][50/123]	Time 19.871 (18.747)	Loss 0.1288 (0.1204)	Prec@1 98.000 (97.000)
+Epoch: [208][100/123]	Time 19.728 (20.080)	Loss 0.0734 (0.1190)	Prec@1 100.000 (97.100)
+Current learning rate is 0.001000:
+Epoch
+209
+Dataset Size
+1212
+Epoch: [209][50/123]	Time 21.014 (41.622)	Loss 0.1471 (0.1480)	Prec@1 96.000 (95.400)
+Epoch: [209][100/123]	Time 27.477 (32.435)	Loss 0.1136 (0.1262)	Prec@1 98.000 (96.400)
+Current learning rate is 0.001000:
+Epoch
+210
+Dataset Size
+1212
+Epoch: [210][50/123]	Time 37.693 (27.795)	Loss 0.1292 (0.1123)	Prec@1 94.000 (96.400)
+Epoch: [210][100/123]	Time 31.607 (26.250)	Loss 0.0961 (0.1063)	Prec@1 98.000 (96.400)
+Current learning rate is 0.001000:
+Epoch
+211
+Dataset Size
+1212
+Epoch: [211][50/123]	Time 36.323 (24.477)	Loss 0.0469 (0.0961)	Prec@1 100.000 (96.800)
+Epoch: [211][100/123]	Time 22.605 (24.454)	Loss 0.0747 (0.0942)	Prec@1 98.000 (97.300)
+Current learning rate is 0.001000:
+Epoch
+212
+Dataset Size
+1212
+Epoch: [212][50/123]	Time 22.734 (24.622)	Loss 0.0654 (0.1144)	Prec@1 100.000 (96.000)
+Epoch: [212][100/123]	Time 21.744 (25.364)	Loss 0.0685 (0.1150)	Prec@1 100.000 (96.700)
+Current learning rate is 0.001000:
+Epoch
+213
+Dataset Size
+1212
+Epoch: [213][50/123]	Time 24.878 (28.574)	Loss 0.0857 (0.1065)	Prec@1 98.000 (97.800)
+Epoch: [213][100/123]	Time 33.185 (27.254)	Loss 0.1061 (0.1173)	Prec@1 96.000 (96.900)
+Current learning rate is 0.001000:
+Epoch
+214
+Dataset Size
+1212
+Epoch: [214][50/123]	Time 34.876 (30.279)	Loss 0.1806 (0.1003)	Prec@1 96.000 (98.200)
+Epoch: [214][100/123]	Time 18.294 (30.411)	Loss 0.1819 (0.1139)	Prec@1 94.000 (97.500)
+Current learning rate is 0.001000:
+Epoch
+215
+Dataset Size
+1212
+Epoch: [215][50/123]	Time 30.185 (27.155)	Loss 0.0673 (0.1060)	Prec@1 98.000 (97.800)
+Epoch: [215][100/123]	Time 21.614 (25.276)	Loss 0.1077 (0.1038)	Prec@1 98.000 (98.000)
+Current learning rate is 0.001000:
+Epoch
+216
+Dataset Size
+1212
+Epoch: [216][50/123]	Time 16.795 (22.949)	Loss 0.0869 (0.1017)	Prec@1 98.000 (97.000)
+Epoch: [216][100/123]	Time 17.121 (22.979)	Loss 0.0758 (0.1095)	Prec@1 98.000 (97.400)
+Current learning rate is 0.001000:
+Epoch
+217
+Dataset Size
+1212
+Epoch: [217][50/123]	Time 22.494 (24.134)	Loss 0.0807 (0.1175)	Prec@1 98.000 (96.800)
+Epoch: [217][100/123]	Time 18.072 (22.821)	Loss 0.1716 (0.1169)	Prec@1 96.000 (97.000)
+Current learning rate is 0.001000:
+Epoch
+218
+Dataset Size
+1212
+Epoch: [218][50/123]	Time 24.609 (19.980)	Loss 0.1304 (0.0905)	Prec@1 96.000 (98.200)
+Epoch: [218][100/123]	Time 14.704 (19.993)	Loss 0.0674 (0.0872)	Prec@1 100.000 (97.900)
+Current learning rate is 0.001000:
+Epoch
+219
+Dataset Size
+1212
+Epoch: [219][50/123]	Time 14.209 (20.570)	Loss 0.0633 (0.1132)	Prec@1 98.000 (96.400)
+Epoch: [219][100/123]	Time 18.928 (19.741)	Loss 0.0449 (0.1034)	Prec@1 98.000 (96.800)
+Current learning rate is 0.001000:
+Epoch
+220
+Dataset Size
+1212
+Epoch: [220][50/123]	Time 18.347 (18.223)	Loss 0.1533 (0.1032)	Prec@1 98.000 (97.800)
+Epoch: [220][100/123]	Time 14.623 (18.163)	Loss 0.2257 (0.1073)	Prec@1 92.000 (97.100)
+Current learning rate is 0.001000:
+Epoch
+221
+Dataset Size
+1212
+Epoch: [221][50/123]	Time 13.652 (18.574)	Loss 0.0482 (0.0969)	Prec@1 100.000 (97.800)
+Epoch: [221][100/123]	Time 12.762 (18.281)	Loss 0.1197 (0.1069)	Prec@1 96.000 (97.300)
+Current learning rate is 0.001000:
+Epoch
+222
+Dataset Size
+1212
+Epoch: [222][50/123]	Time 15.764 (17.544)	Loss 0.0814 (0.0819)	Prec@1 96.000 (98.000)
+Epoch: [222][100/123]	Time 13.157 (17.514)	Loss 0.0769 (0.0746)	Prec@1 100.000 (98.600)
+Current learning rate is 0.001000:
+Epoch
+223
+Dataset Size
+1212
+Epoch: [223][50/123]	Time 16.222 (17.643)	Loss 0.0460 (0.0926)	Prec@1 98.000 (98.000)
+Epoch: [223][100/123]	Time 13.471 (17.612)	Loss 0.0583 (0.0978)	Prec@1 100.000 (97.800)
+Current learning rate is 0.001000:
+Epoch
+224
+Dataset Size
+1212
+Epoch: [224][50/123]	Time 13.441 (17.628)	Loss 0.1253 (0.0959)	Prec@1 98.000 (97.000)
+Epoch: [224][100/123]	Time 18.426 (17.507)	Loss 0.0805 (0.0931)	Prec@1 98.000 (97.700)
+Test: [0/2]	Time 42.628 (42.628)	Loss 0.4913 (0.4913)	Prec@1 80.000 (80.000)	Prec@3 90.000 (90.000)
+ * Prec@1 65.000 Prec@3 85.000
+Current learning rate is 0.001000:
+Epoch
+225
+Dataset Size
+1212
+Epoch: [225][50/123]	Time 14.179 (17.411)	Loss 0.0478 (0.0943)	Prec@1 100.000 (97.400)
+Epoch: [225][100/123]	Time 17.174 (17.195)	Loss 0.0468 (0.0990)	Prec@1 100.000 (97.100)
+Current learning rate is 0.001000:
+Epoch
+226
+Dataset Size
+1212
+Epoch: [226][50/123]	Time 13.479 (17.039)	Loss 0.0718 (0.0907)	Prec@1 100.000 (98.000)
+Epoch: [226][100/123]	Time 13.171 (16.768)	Loss 0.0537 (0.0958)	Prec@1 100.000 (97.300)
+Current learning rate is 0.001000:
+Epoch
+227
+Dataset Size
+1212
+Epoch: [227][50/123]	Time 12.823 (16.896)	Loss 0.1131 (0.1007)	Prec@1 98.000 (97.200)
+Epoch: [227][100/123]	Time 14.023 (16.928)	Loss 0.0836 (0.1007)	Prec@1 98.000 (97.600)
+Current learning rate is 0.001000:
+Epoch
+228
+Dataset Size
+1212
+Epoch: [228][50/123]	Time 14.693 (16.841)	Loss 0.1254 (0.0942)	Prec@1 96.000 (97.000)
+Epoch: [228][100/123]	Time 16.009 (16.817)	Loss 0.2077 (0.1028)	Prec@1 94.000 (97.100)
+Current learning rate is 0.001000:
+Epoch
+229
+Dataset Size
+1212
+Epoch: [229][50/123]	Time 20.970 (17.628)	Loss 0.0940 (0.0848)	Prec@1 100.000 (98.400)
+Epoch: [229][100/123]	Time 19.778 (17.263)	Loss 0.0747 (0.0841)	Prec@1 96.000 (98.200)
+Current learning rate is 0.001000:
+Epoch
+230
+Dataset Size
+1212
+Epoch: [230][50/123]	Time 13.607 (16.851)	Loss 0.0720 (0.0708)	Prec@1 98.000 (98.800)
+Epoch: [230][100/123]	Time 15.647 (16.850)	Loss 0.0764 (0.0897)	Prec@1 100.000 (98.000)
+Current learning rate is 0.001000:
+Epoch
+231
+Dataset Size
+1212
+Epoch: [231][50/123]	Time 19.498 (17.052)	Loss 0.1450 (0.0875)	Prec@1 96.000 (97.600)
+Epoch: [231][100/123]	Time 18.848 (16.796)	Loss 0.0417 (0.0968)	Prec@1 100.000 (97.600)
+Current learning rate is 0.001000:
+Epoch
+232
+Dataset Size
+1212
+Epoch: [232][50/123]	Time 13.403 (16.813)	Loss 0.1078 (0.0829)	Prec@1 98.000 (98.000)
+Epoch: [232][100/123]	Time 13.518 (16.886)	Loss 0.0632 (0.0888)	Prec@1 98.000 (98.000)
+Current learning rate is 0.001000:
+Epoch
+233
+Dataset Size
+1212
+Epoch: [233][50/123]	Time 14.248 (17.121)	Loss 0.1788 (0.1054)	Prec@1 94.000 (97.800)
+Epoch: [233][100/123]	Time 13.402 (16.900)	Loss 0.1341 (0.1044)	Prec@1 98.000 (97.600)
+Current learning rate is 0.001000:
+Epoch
+234
+Dataset Size
+1212
+Epoch: [234][50/123]	Time 18.510 (17.146)	Loss 0.0820 (0.1047)	Prec@1 100.000 (97.400)
+Epoch: [234][100/123]	Time 19.437 (16.994)	Loss 0.0487 (0.1021)	Prec@1 98.000 (97.100)
+Current learning rate is 0.001000:
+Epoch
+235
+Dataset Size
+1212
+Epoch: [235][50/123]	Time 16.515 (17.100)	Loss 0.1420 (0.1081)	Prec@1 94.000 (96.200)
+Epoch: [235][100/123]	Time 19.250 (16.961)	Loss 0.0784 (0.0928)	Prec@1 96.000 (97.100)
+Current learning rate is 0.001000:
+Epoch
+236
+Dataset Size
+1212
+Epoch: [236][50/123]	Time 13.845 (16.635)	Loss 0.0658 (0.0813)	Prec@1 98.000 (98.600)
+Epoch: [236][100/123]	Time 13.636 (16.651)	Loss 0.0424 (0.0881)	Prec@1 100.000 (97.900)
+Current learning rate is 0.001000:
+Epoch
+237
+Dataset Size
+1212
+Epoch: [237][50/123]	Time 13.973 (16.605)	Loss 0.0294 (0.1042)	Prec@1 100.000 (97.600)
+Epoch: [237][100/123]	Time 13.086 (16.442)	Loss 0.1335 (0.0968)	Prec@1 98.000 (98.000)
+Current learning rate is 0.001000:
+Epoch
+238
+Dataset Size
+1212
+Epoch: [238][50/123]	Time 14.161 (16.639)	Loss 0.0889 (0.1061)	Prec@1 98.000 (97.200)
+Epoch: [238][100/123]	Time 14.765 (16.682)	Loss 0.0943 (0.0940)	Prec@1 100.000 (98.100)
+Current learning rate is 0.001000:
+Epoch
+239
+Dataset Size
+1212
+Epoch: [239][50/123]	Time 12.847 (16.979)	Loss 0.1327 (0.0744)	Prec@1 92.000 (97.800)
+Epoch: [239][100/123]	Time 12.986 (16.766)	Loss 0.0844 (0.0752)	Prec@1 96.000 (97.700)
+Current learning rate is 0.001000:
+Epoch
+240
+Dataset Size
+1212
+Epoch: [240][50/123]	Time 15.459 (16.927)	Loss 0.0814 (0.0987)	Prec@1 96.000 (97.400)
+Epoch: [240][100/123]	Time 20.249 (16.916)	Loss 0.0335 (0.0933)	Prec@1 100.000 (97.500)
+Current learning rate is 0.001000:
+Epoch
+241
+Dataset Size
+1212
+Epoch: [241][50/123]	Time 13.359 (16.773)	Loss 0.1072 (0.0965)	Prec@1 98.000 (97.200)
+Epoch: [241][100/123]	Time 14.435 (16.847)	Loss 0.0805 (0.0847)	Prec@1 98.000 (98.000)
+Current learning rate is 0.001000:
+Epoch
+242
+Dataset Size
+1212
+Epoch: [242][50/123]	Time 19.012 (17.028)	Loss 0.0697 (0.0930)	Prec@1 100.000 (97.600)
+Epoch: [242][100/123]	Time 19.592 (16.580)	Loss 0.0643 (0.0902)	Prec@1 98.000 (97.900)
+Current learning rate is 0.001000:
+Epoch
+243
+Dataset Size
+1212
+Epoch: [243][50/123]	Time 13.130 (16.781)	Loss 0.1757 (0.1093)	Prec@1 92.000 (97.000)
+Epoch: [243][100/123]	Time 14.730 (16.698)	Loss 0.0643 (0.1039)	Prec@1 98.000 (97.400)
+Current learning rate is 0.001000:
+Epoch
+244
+Dataset Size
+1212
+Epoch: [244][50/123]	Time 15.016 (16.819)	Loss 0.0837 (0.0890)	Prec@1 98.000 (97.800)
+Epoch: [244][100/123]	Time 13.482 (16.765)	Loss 0.1153 (0.1019)	Prec@1 96.000 (97.400)
+Current learning rate is 0.001000:
+Epoch
+245
+Dataset Size
+1212
+Epoch: [245][50/123]	Time 13.756 (17.169)	Loss 0.0707 (0.0848)	Prec@1 98.000 (98.000)
+Epoch: [245][100/123]	Time 13.180 (16.973)	Loss 0.0485 (0.0781)	Prec@1 100.000 (98.300)
+Current learning rate is 0.001000:
+Epoch
+246
+Dataset Size
+1212
+Epoch: [246][50/123]	Time 13.059 (16.696)	Loss 0.0429 (0.0626)	Prec@1 100.000 (98.800)
+Epoch: [246][100/123]	Time 13.278 (16.587)	Loss 0.0926 (0.0901)	Prec@1 98.000 (98.500)
+Current learning rate is 0.001000:
+Epoch
+247
+Dataset Size
+1212
+Epoch: [247][50/123]	Time 13.840 (16.792)	Loss 0.0959 (0.0863)	Prec@1 96.000 (98.600)
+Epoch: [247][100/123]	Time 12.919 (16.698)	Loss 0.1241 (0.0820)	Prec@1 94.000 (98.500)
+Current learning rate is 0.001000:
+Epoch
+248
+Dataset Size
+1212
+Epoch: [248][50/123]	Time 16.670 (16.961)	Loss 0.0327 (0.0733)	Prec@1 100.000 (99.000)
+Epoch: [248][100/123]	Time 16.529 (16.808)	Loss 0.0534 (0.0797)	Prec@1 100.000 (98.200)
+Current learning rate is 0.001000:
+Epoch
+249
+Dataset Size
+1212
+Epoch: [249][50/123]	Time 14.294 (16.340)	Loss 0.1026 (0.0798)	Prec@1 96.000 (98.000)
+Epoch: [249][100/123]	Time 14.262 (16.199)	Loss 0.1025 (0.0816)	Prec@1 98.000 (98.000)
+Test: [0/2]	Time 23.451 (23.451)	Loss 3.8853 (3.8853)	Prec@1 40.000 (40.000)	Prec@3 60.000 (60.000)
+ * Prec@1 60.000 Prec@3 70.000
+Current learning rate is 0.001000:
+Epoch
+250
+Dataset Size
+1212
+Epoch: [250][50/123]	Time 13.350 (16.897)	Loss 0.1018 (0.0904)	Prec@1 96.000 (98.000)
+Epoch: [250][100/123]	Time 14.082 (16.937)	Loss 0.0796 (0.0862)	Prec@1 96.000 (97.700)
+Current learning rate is 0.001000:
+Epoch
+251
+Dataset Size
+1212
+Epoch: [251][50/123]	Time 13.352 (16.896)	Loss 0.0668 (0.0830)	Prec@1 98.000 (97.800)
+Epoch: [251][100/123]	Time 18.171 (16.899)	Loss 0.1662 (0.0891)	Prec@1 96.000 (97.800)
+Current learning rate is 0.001000:
+Epoch
+252
+Dataset Size
+1212
+Epoch: [252][50/123]	Time 13.074 (17.005)	Loss 0.0798 (0.0941)	Prec@1 96.000 (97.600)
+Epoch: [252][100/123]	Time 13.754 (16.961)	Loss 0.0619 (0.0912)	Prec@1 98.000 (97.600)
+Current learning rate is 0.001000:
+Epoch
+253
+Dataset Size
+1212
+Epoch: [253][50/123]	Time 13.101 (16.946)	Loss 0.0385 (0.0899)	Prec@1 100.000 (98.000)
+Epoch: [253][100/123]	Time 13.197 (16.751)	Loss 0.1109 (0.0850)	Prec@1 98.000 (98.100)
+Current learning rate is 0.001000:
+Epoch
+254
+Dataset Size
+1212
+Epoch: [254][50/123]	Time 13.051 (16.683)	Loss 0.0546 (0.0741)	Prec@1 98.000 (98.800)
+Epoch: [254][100/123]	Time 13.431 (16.709)	Loss 0.0221 (0.0724)	Prec@1 100.000 (98.700)
+Current learning rate is 0.001000:
+Epoch
+255
+Dataset Size
+1212
+Epoch: [255][50/123]	Time 14.874 (16.907)	Loss 0.0564 (0.0736)	Prec@1 100.000 (98.600)
+Epoch: [255][100/123]	Time 13.035 (16.835)	Loss 0.1460 (0.0781)	Prec@1 94.000 (98.100)
+Current learning rate is 0.001000:
+Epoch
+256
+Dataset Size
+1212
+Epoch: [256][50/123]	Time 17.443 (16.907)	Loss 0.1571 (0.1089)	Prec@1 96.000 (97.400)
+Epoch: [256][100/123]	Time 14.662 (16.693)	Loss 0.1170 (0.0911)	Prec@1 94.000 (97.900)
+Current learning rate is 0.001000:
+Epoch
+257
+Dataset Size
+1212
+Epoch: [257][50/123]	Time 13.003 (16.890)	Loss 0.0719 (0.0810)	Prec@1 100.000 (98.600)
+Epoch: [257][100/123]	Time 14.187 (16.863)	Loss 0.0999 (0.0969)	Prec@1 98.000 (97.600)
+Current learning rate is 0.001000:
+Epoch
+258
+Dataset Size
+1212
+Epoch: [258][50/123]	Time 13.220 (16.950)	Loss 0.0226 (0.0703)	Prec@1 100.000 (98.600)
+Epoch: [258][100/123]	Time 13.546 (16.839)	Loss 0.1751 (0.0734)	Prec@1 94.000 (98.400)
+Current learning rate is 0.001000:
+Epoch
+259
+Dataset Size
+1212
+Epoch: [259][50/123]	Time 16.338 (16.936)	Loss 0.0488 (0.0725)	Prec@1 100.000 (98.600)
+Epoch: [259][100/123]	Time 20.291 (17.092)	Loss 0.0696 (0.0826)	Prec@1 100.000 (98.500)
+Current learning rate is 0.001000:
+Epoch
+260
+Dataset Size
+1212
+Epoch: [260][50/123]	Time 13.428 (17.270)	Loss 0.0380 (0.0915)	Prec@1 100.000 (97.400)
+Epoch: [260][100/123]	Time 13.159 (16.872)	Loss 0.0910 (0.0902)	Prec@1 98.000 (97.600)
+Current learning rate is 0.001000:
+Epoch
+261
+Dataset Size
+1212
+Epoch: [261][50/123]	Time 15.704 (16.580)	Loss 0.0393 (0.0625)	Prec@1 100.000 (98.800)
+Epoch: [261][100/123]	Time 16.347 (16.471)	Loss 0.0477 (0.0686)	Prec@1 98.000 (98.300)
+Current learning rate is 0.001000:
+Epoch
+262
+Dataset Size
+1212
+Epoch: [262][50/123]	Time 13.511 (16.548)	Loss 0.0816 (0.1006)	Prec@1 98.000 (98.000)
+Epoch: [262][100/123]	Time 14.444 (16.428)	Loss 0.0441 (0.0944)	Prec@1 100.000 (98.100)
+Current learning rate is 0.001000:
+Epoch
+263
+Dataset Size
+1212
+Epoch: [263][50/123]	Time 14.143 (16.370)	Loss 0.0777 (0.0913)	Prec@1 100.000 (97.600)
+Epoch: [263][100/123]	Time 18.927 (17.178)	Loss 0.0641 (0.0824)	Prec@1 98.000 (97.800)
+Current learning rate is 0.001000:
+Epoch
+264
+Dataset Size
+1212
+Epoch: [264][50/123]	Time 17.175 (17.974)	Loss 0.0626 (0.0688)	Prec@1 98.000 (98.600)
+Epoch: [264][100/123]	Time 15.038 (17.847)	Loss 0.1087 (0.0670)	Prec@1 96.000 (98.800)
+Current learning rate is 0.001000:
+Epoch
+265
+Dataset Size
+1212
+Epoch: [265][50/123]	Time 18.272 (17.725)	Loss 0.1405 (0.0647)	Prec@1 96.000 (98.000)
+Epoch: [265][100/123]	Time 21.816 (17.743)	Loss 0.1126 (0.0758)	Prec@1 96.000 (97.700)
+Current learning rate is 0.001000:
+Epoch
+266
+Dataset Size
+1212
+Epoch: [266][50/123]	Time 48.147 (26.705)	Loss 0.0607 (0.0606)	Prec@1 100.000 (99.000)
+Epoch: [266][100/123]	Time 61.745 (42.151)	Loss 0.0453 (0.0688)	Prec@1 100.000 (98.800)
+Current learning rate is 0.001000:
+Epoch
+267
+Dataset Size
+1212
+Epoch: [267][50/123]	Time 33.949 (37.803)	Loss 0.0980 (0.0827)	Prec@1 98.000 (98.400)
+Epoch: [267][100/123]	Time 39.844 (41.960)	Loss 0.0709 (0.0778)	Prec@1 100.000 (98.800)
+Current learning rate is 0.001000:
+Epoch
+268
+Dataset Size
+1212
+Epoch: [268][50/123]	Time 32.437 (38.001)	Loss 0.0548 (0.0654)	Prec@1 100.000 (98.400)
+Epoch: [268][100/123]	Time 44.217 (42.410)	Loss 0.0406 (0.0788)	Prec@1 100.000 (98.000)
+Current learning rate is 0.001000:
+Epoch
+269
+Dataset Size
+1212
+Epoch: [269][50/123]	Time 35.270 (33.655)	Loss 0.0739 (0.0701)	Prec@1 100.000 (99.000)
+Epoch: [269][100/123]	Time 65.204 (36.455)	Loss 0.0530 (0.0652)	Prec@1 98.000 (99.000)
+Current learning rate is 0.001000:
+Epoch
+270
+Dataset Size
+1212
+Epoch: [270][50/123]	Time 47.089 (43.078)	Loss 0.0657 (0.0613)	Prec@1 100.000 (99.000)
+Epoch: [270][100/123]	Time 37.802 (43.773)	Loss 0.0407 (0.0675)	Prec@1 100.000 (98.800)
+Current learning rate is 0.001000:
+Epoch
+271
+Dataset Size
+1212
+Epoch: [271][50/123]	Time 24.481 (29.889)	Loss 0.0928 (0.0902)	Prec@1 96.000 (98.200)
+Epoch: [271][100/123]	Time 27.454 (35.125)	Loss 0.0853 (0.0798)	Prec@1 100.000 (98.300)
+Current learning rate is 0.001000:
+Epoch
+272
+Dataset Size
+1212
+Epoch: [272][50/123]	Time 31.008 (33.414)	Loss 0.1059 (0.0787)	Prec@1 96.000 (97.600)
+Epoch: [272][100/123]	Time 31.421 (35.715)	Loss 0.1147 (0.0801)	Prec@1 98.000 (98.100)
+Current learning rate is 0.001000:
+Epoch
+273
+Dataset Size
+1212
+Epoch: [273][50/123]	Time 21.873 (27.304)	Loss 0.0865 (0.1008)	Prec@1 100.000 (97.200)
+Epoch: [273][100/123]	Time 38.208 (29.613)	Loss 0.0797 (0.0936)	Prec@1 96.000 (97.400)
+Current learning rate is 0.001000:
+Epoch
+274
+Dataset Size
+1212
+Epoch: [274][50/123]	Time 25.376 (30.508)	Loss 0.0823 (0.0884)	Prec@1 98.000 (97.800)
+Epoch: [274][100/123]	Time 36.065 (34.026)	Loss 0.0476 (0.0748)	Prec@1 100.000 (98.400)
+Test: [0/2]	Time 23.833 (23.833)	Loss 1.3486 (1.3486)	Prec@1 70.000 (70.000)	Prec@3 80.000 (80.000)
+ * Prec@1 75.000 Prec@3 90.000
+Current learning rate is 0.001000:
+Epoch
+275
+Dataset Size
+1212
+Epoch: [275][50/123]	Time 24.917 (30.897)	Loss 0.0875 (0.0766)	Prec@1 96.000 (98.000)
+Epoch: [275][100/123]	Time 42.035 (34.074)	Loss 0.0637 (0.0649)	Prec@1 98.000 (98.700)
+Current learning rate is 0.001000:
+Epoch
+276
+Dataset Size
+1212
+Epoch: [276][50/123]	Time 39.888 (32.174)	Loss 0.1076 (0.0745)	Prec@1 96.000 (98.400)
+Epoch: [276][100/123]	Time 53.284 (35.159)	Loss 0.0682 (0.0712)	Prec@1 100.000 (98.800)
+Current learning rate is 0.001000:
+Epoch
+277
+Dataset Size
+1212
+Epoch: [277][50/123]	Time 45.297 (31.602)	Loss 0.0308 (0.0863)	Prec@1 100.000 (97.400)
+Epoch: [277][100/123]	Time 35.509 (33.368)	Loss 0.0941 (0.0779)	Prec@1 100.000 (98.100)
+Current learning rate is 0.001000:
+Epoch
+278
+Dataset Size
+1212
+Epoch: [278][50/123]	Time 21.067 (29.606)	Loss 0.0536 (0.0594)	Prec@1 100.000 (99.400)
+Epoch: [278][100/123]	Time 37.003 (32.153)	Loss 0.1122 (0.0718)	Prec@1 96.000 (98.800)
+Current learning rate is 0.001000:
+Epoch
+279
+Dataset Size
+1212
+Epoch: [279][50/123]	Time 23.036 (28.988)	Loss 0.0711 (0.0720)	Prec@1 98.000 (98.600)
+Epoch: [279][100/123]	Time 40.759 (30.211)	Loss 0.0848 (0.0661)	Prec@1 96.000 (98.800)
+Current learning rate is 0.001000:
+Epoch
+280
+Dataset Size
+1212
+Epoch: [280][50/123]	Time 17.199 (23.647)	Loss 0.0776 (0.0648)	Prec@1 96.000 (98.600)
+Epoch: [280][100/123]	Time 29.444 (24.512)	Loss 0.0391 (0.0680)	Prec@1 100.000 (98.500)
+Current learning rate is 0.001000:
+Epoch
+281
+Dataset Size
+1212
+Epoch: [281][50/123]	Time 17.348 (21.741)	Loss 0.0685 (0.0641)	Prec@1 100.000 (99.200)
+Epoch: [281][100/123]	Time 24.592 (24.418)	Loss 0.0190 (0.0623)	Prec@1 100.000 (99.200)
+Current learning rate is 0.001000:
+Epoch
+282
+Dataset Size
+1212
+Epoch: [282][50/123]	Time 25.882 (26.682)	Loss 0.1371 (0.0701)	Prec@1 98.000 (98.400)
+Epoch: [282][100/123]	Time 53.959 (31.458)	Loss 0.0963 (0.0728)	Prec@1 98.000 (98.300)
+Current learning rate is 0.001000:
+Epoch
+283
+Dataset Size
+1212
+Epoch: [283][50/123]	Time 27.351 (35.722)	Loss 0.0346 (0.0647)	Prec@1 100.000 (99.200)
+Epoch: [283][100/123]	Time 30.091 (36.008)	Loss 0.0868 (0.0632)	Prec@1 98.000 (99.000)
+Current learning rate is 0.001000:
+Epoch
+284
+Dataset Size
+1212
+Epoch: [284][50/123]	Time 27.335 (24.256)	Loss 0.0852 (0.0989)	Prec@1 96.000 (96.600)
+Epoch: [284][100/123]	Time 27.971 (24.608)	Loss 0.0430 (0.0867)	Prec@1 100.000 (97.500)
+Current learning rate is 0.001000:
+Epoch
+285
+Dataset Size
+1212
+Epoch: [285][50/123]	Time 21.585 (20.488)	Loss 0.1380 (0.0750)	Prec@1 94.000 (98.000)
+Epoch: [285][100/123]	Time 17.832 (21.163)	Loss 0.0350 (0.0736)	Prec@1 100.000 (98.300)
+Current learning rate is 0.001000:
+Epoch
+286
+Dataset Size
+1212
+Epoch: [286][50/123]	Time 15.595 (19.414)	Loss 0.0576 (0.0701)	Prec@1 100.000 (98.600)
+Epoch: [286][100/123]	Time 16.408 (19.937)	Loss 0.0414 (0.0804)	Prec@1 100.000 (98.100)
+Current learning rate is 0.001000:
+Epoch
+287
+Dataset Size
+1212
+Epoch: [287][50/123]	Time 23.245 (19.104)	Loss 0.0390 (0.0659)	Prec@1 100.000 (98.000)
+Epoch: [287][100/123]	Time 21.935 (19.258)	Loss 0.0424 (0.0748)	Prec@1 100.000 (97.900)
+Current learning rate is 0.001000:
+Epoch
+288
+Dataset Size
+1212
+Epoch: [288][50/123]	Time 14.542 (18.605)	Loss 0.0500 (0.0722)	Prec@1 100.000 (98.200)
+Epoch: [288][100/123]	Time 13.904 (18.455)	Loss 0.0590 (0.0764)	Prec@1 98.000 (98.100)
+Current learning rate is 0.001000:
+Epoch
+289
+Dataset Size
+1212
+Epoch: [289][50/123]	Time 19.730 (18.056)	Loss 0.0905 (0.0699)	Prec@1 98.000 (98.800)
+Epoch: [289][100/123]	Time 15.926 (18.054)	Loss 0.1445 (0.0766)	Prec@1 90.000 (98.200)
+Current learning rate is 0.001000:
+Epoch
+290
+Dataset Size
+1212
+Epoch: [290][50/123]	Time 13.882 (18.253)	Loss 0.0927 (0.0785)	Prec@1 96.000 (97.800)
+Epoch: [290][100/123]	Time 17.077 (18.110)	Loss 0.1168 (0.0788)	Prec@1 96.000 (97.700)
+Current learning rate is 0.001000:
+Epoch
+291
+Dataset Size
+1212
+Epoch: [291][50/123]	Time 14.025 (17.968)	Loss 0.0508 (0.0769)	Prec@1 100.000 (98.400)
+Epoch: [291][100/123]	Time 14.113 (18.092)	Loss 0.0365 (0.0670)	Prec@1 100.000 (98.500)
+Current learning rate is 0.001000:
+Epoch
+292
+Dataset Size
+1212
+Epoch: [292][50/123]	Time 21.325 (18.416)	Loss 0.0337 (0.0646)	Prec@1 100.000 (98.400)
+Epoch: [292][100/123]	Time 15.791 (18.021)	Loss 0.0573 (0.0743)	Prec@1 100.000 (97.900)
+Current learning rate is 0.001000:
+Epoch
+293
+Dataset Size
+1212
+Epoch: [293][50/123]	Time 15.413 (17.882)	Loss 0.0446 (0.0822)	Prec@1 100.000 (97.800)
+Epoch: [293][100/123]	Time 14.692 (18.172)	Loss 0.0657 (0.0844)	Prec@1 100.000 (97.700)
+Current learning rate is 0.001000:
+Epoch
+294
+Dataset Size
+1212
+Epoch: [294][50/123]	Time 13.083 (17.633)	Loss 0.0398 (0.0651)	Prec@1 100.000 (98.600)
+Epoch: [294][100/123]	Time 13.711 (17.691)	Loss 0.1413 (0.0758)	Prec@1 96.000 (98.100)
+Current learning rate is 0.001000:
+Epoch
+295
+Dataset Size
+1212
+Epoch: [295][50/123]	Time 15.162 (18.560)	Loss 0.0615 (0.0671)	Prec@1 96.000 (98.400)
+Epoch: [295][100/123]	Time 16.392 (18.811)	Loss 0.0639 (0.0658)	Prec@1 100.000 (98.700)
+Current learning rate is 0.001000:
+Epoch
+296
+Dataset Size
+1212
+Epoch: [296][50/123]	Time 13.662 (18.893)	Loss 0.0300 (0.0843)	Prec@1 100.000 (98.400)
+Epoch: [296][100/123]	Time 17.197 (19.334)	Loss 0.1218 (0.0816)	Prec@1 98.000 (98.400)
+Current learning rate is 0.001000:
+Epoch
+297
+Dataset Size
+1212
+Epoch: [297][50/123]	Time 13.195 (18.378)	Loss 0.0552 (0.0671)	Prec@1 98.000 (98.400)
+Epoch: [297][100/123]	Time 20.429 (18.536)	Loss 0.0787 (0.0724)	Prec@1 98.000 (98.400)
+Current learning rate is 0.001000:
+Epoch
+298
+Dataset Size
+1212
+Epoch: [298][50/123]	Time 19.991 (18.211)	Loss 0.0245 (0.0586)	Prec@1 100.000 (98.800)
+Epoch: [298][100/123]	Time 21.711 (18.186)	Loss 0.1115 (0.0623)	Prec@1 98.000 (98.700)
+Current learning rate is 0.001000:
+Epoch
+299
+Dataset Size
+1212
+Epoch: [299][50/123]	Time 15.413 (17.439)	Loss 0.0377 (0.0648)	Prec@1 100.000 (98.800)
+Epoch: [299][100/123]	Time 14.035 (17.652)	Loss 0.1036 (0.0709)	Prec@1 98.000 (98.400)
+Test: [0/2]	Time 21.344 (21.344)	Loss 0.5088 (0.5088)	Prec@1 80.000 (80.000)	Prec@3 90.000 (90.000)
+ * Prec@1 75.000 Prec@3 90.000
+Current learning rate is 0.000100:
+Epoch
+300
+Dataset Size
+1212
+Epoch: [300][50/123]	Time 15.495 (17.457)	Loss 0.0296 (0.1088)	Prec@1 100.000 (96.200)
+Epoch: [300][100/123]	Time 21.094 (17.654)	Loss 0.0622 (0.0953)	Prec@1 98.000 (97.200)
+Current learning rate is 0.000100:
+Epoch
+301
+Dataset Size
+1212
+Epoch: [301][50/123]	Time 13.174 (17.118)	Loss 0.0277 (0.0572)	Prec@1 100.000 (98.600)
+Epoch: [301][100/123]	Time 16.021 (17.215)	Loss 0.1578 (0.0736)	Prec@1 96.000 (98.200)
+Current learning rate is 0.000100:
+Epoch
+302
+Dataset Size
+1212
+Epoch: [302][50/123]	Time 14.079 (17.222)	Loss 0.0432 (0.0705)	Prec@1 100.000 (99.000)
+Epoch: [302][100/123]	Time 14.767 (17.653)	Loss 0.0875 (0.0710)	Prec@1 98.000 (98.900)
+Current learning rate is 0.000100:
+Epoch
+303
+Dataset Size
+1212
+Epoch: [303][50/123]	Time 14.859 (17.597)	Loss 0.0725 (0.0642)	Prec@1 100.000 (99.000)
+Epoch: [303][100/123]	Time 14.642 (17.800)	Loss 0.0455 (0.0700)	Prec@1 100.000 (98.800)
+Current learning rate is 0.000100:
+Epoch
+304
+Dataset Size
+1212
+Epoch: [304][50/123]	Time 14.981 (17.304)	Loss 0.0859 (0.0690)	Prec@1 98.000 (98.400)
+Epoch: [304][100/123]	Time 15.790 (17.419)	Loss 0.0765 (0.0771)	Prec@1 96.000 (98.000)
+Current learning rate is 0.000100:
+Epoch
+305
+Dataset Size
+1212
+Epoch: [305][50/123]	Time 14.824 (17.274)	Loss 0.0852 (0.0534)	Prec@1 98.000 (99.000)
+Epoch: [305][100/123]	Time 20.386 (17.916)	Loss 0.0358 (0.0537)	Prec@1 100.000 (99.100)
+Current learning rate is 0.000100:
+Epoch
+306
+Dataset Size
+1212
+Epoch: [306][50/123]	Time 15.720 (17.558)	Loss 0.1117 (0.0792)	Prec@1 98.000 (98.200)
+Epoch: [306][100/123]	Time 15.602 (17.655)	Loss 0.0508 (0.0654)	Prec@1 100.000 (98.700)
+Current learning rate is 0.000100:
+Epoch
+307
+Dataset Size
+1212
+Epoch: [307][50/123]	Time 19.692 (17.778)	Loss 0.0284 (0.0638)	Prec@1 100.000 (98.800)
+Epoch: [307][100/123]	Time 21.055 (17.678)	Loss 0.0392 (0.0659)	Prec@1 100.000 (98.900)
+Current learning rate is 0.000100:
+Epoch
+308
+Dataset Size
+1212
+Epoch: [308][50/123]	Time 14.081 (17.441)	Loss 0.0268 (0.0611)	Prec@1 100.000 (98.600)
+Epoch: [308][100/123]	Time 13.294 (17.128)	Loss 0.0468 (0.0618)	Prec@1 100.000 (98.500)
+Current learning rate is 0.000100:
+Epoch
+309
+Dataset Size
+1212
+Epoch: [309][50/123]	Time 15.906 (17.302)	Loss 0.0969 (0.0733)	Prec@1 100.000 (98.400)
+Epoch: [309][100/123]	Time 15.773 (17.264)	Loss 0.0421 (0.0683)	Prec@1 100.000 (98.700)
+Current learning rate is 0.000100:
+Epoch
+310
+Dataset Size
+1212
+Epoch: [310][50/123]	Time 19.865 (17.615)	Loss 0.0260 (0.0608)	Prec@1 100.000 (99.000)
+Epoch: [310][100/123]	Time 16.945 (17.232)	Loss 0.0510 (0.0609)	Prec@1 100.000 (98.800)
+Current learning rate is 0.000100:
+Epoch
+311
+Dataset Size
+1212
+Epoch: [311][50/123]	Time 14.379 (17.072)	Loss 0.0678 (0.0751)	Prec@1 98.000 (98.800)
+Epoch: [311][100/123]	Time 15.330 (17.404)	Loss 0.1071 (0.0742)	Prec@1 98.000 (98.800)
+Current learning rate is 0.000100:
+Epoch
+312
+Dataset Size
+1212
+Epoch: [312][50/123]	Time 13.622 (17.745)	Loss 0.1280 (0.0668)	Prec@1 98.000 (99.000)
+Epoch: [312][100/123]	Time 13.690 (17.460)	Loss 0.1040 (0.0738)	Prec@1 98.000 (98.900)
+Current learning rate is 0.000100:
+Epoch
+313
+Dataset Size
+1212
+Epoch: [313][50/123]	Time 13.714 (17.635)	Loss 0.0755 (0.0725)	Prec@1 100.000 (98.400)
+Epoch: [313][100/123]	Time 14.509 (17.507)	Loss 0.0834 (0.0711)	Prec@1 96.000 (98.300)
+Current learning rate is 0.000100:
+Epoch
+314
+Dataset Size
+1212
+Epoch: [314][50/123]	Time 13.973 (17.021)	Loss 0.0396 (0.0625)	Prec@1 100.000 (98.800)
+Epoch: [314][100/123]	Time 13.691 (16.996)	Loss 0.0546 (0.0745)	Prec@1 98.000 (98.500)
+Current learning rate is 0.000100:
+Epoch
+315
+Dataset Size
+1212
+Epoch: [315][50/123]	Time 15.566 (16.870)	Loss 0.0378 (0.0764)	Prec@1 100.000 (98.000)
+Epoch: [315][100/123]	Time 20.800 (17.100)	Loss 0.0585 (0.0743)	Prec@1 98.000 (98.500)
+Current learning rate is 0.000100:
+Epoch
+316
+Dataset Size
+1212
+Epoch: [316][50/123]	Time 12.896 (17.034)	Loss 0.1063 (0.0773)	Prec@1 98.000 (98.400)
+Epoch: [316][100/123]	Time 13.459 (16.980)	Loss 0.0493 (0.0717)	Prec@1 100.000 (98.700)
+Current learning rate is 0.000100:
+Epoch
+317
+Dataset Size
+1212
+Epoch: [317][50/123]	Time 19.201 (16.920)	Loss 0.1191 (0.0692)	Prec@1 98.000 (98.800)
+Epoch: [317][100/123]	Time 19.033 (16.711)	Loss 0.0478 (0.0648)	Prec@1 98.000 (98.800)
+Current learning rate is 0.000100:
+Epoch
+318
+Dataset Size
+1212
+Epoch: [318][50/123]	Time 13.325 (16.830)	Loss 0.0626 (0.0838)	Prec@1 96.000 (98.000)
+Epoch: [318][100/123]	Time 13.618 (16.821)	Loss 0.1021 (0.0807)	Prec@1 98.000 (98.200)
+Current learning rate is 0.000100:
+Epoch
+319
+Dataset Size
+1212
+Epoch: [319][50/123]	Time 14.050 (16.376)	Loss 0.0341 (0.0594)	Prec@1 100.000 (99.000)
+Epoch: [319][100/123]	Time 19.252 (16.596)	Loss 0.0746 (0.0629)	Prec@1 96.000 (98.700)
+Current learning rate is 0.000100:
+Epoch
+320
+Dataset Size
+1212
+Epoch: [320][50/123]	Time 15.400 (16.882)	Loss 0.0372 (0.0729)	Prec@1 100.000 (99.000)
+Epoch: [320][100/123]	Time 15.406 (16.932)	Loss 0.0898 (0.0711)	Prec@1 98.000 (98.700)
+Current learning rate is 0.000100:
+Epoch
+321
+Dataset Size
+1212
+Epoch: [321][50/123]	Time 16.248 (17.440)	Loss 0.0974 (0.0508)	Prec@1 96.000 (99.600)
+Epoch: [321][100/123]	Time 14.571 (17.099)	Loss 0.0554 (0.0640)	Prec@1 100.000 (99.000)
+Current learning rate is 0.000100:
+Epoch
+322
+Dataset Size
+1212
+Epoch: [322][50/123]	Time 14.192 (17.015)	Loss 0.0635 (0.0531)	Prec@1 98.000 (99.200)
+Epoch: [322][100/123]	Time 13.289 (16.891)	Loss 0.0412 (0.0556)	Prec@1 100.000 (98.800)
+Current learning rate is 0.000100:
+Epoch
+323
+Dataset Size
+1212
+Epoch: [323][50/123]	Time 13.230 (16.802)	Loss 0.0907 (0.0705)	Prec@1 98.000 (98.200)
+Epoch: [323][100/123]	Time 13.306 (16.688)	Loss 0.0699 (0.0709)	Prec@1 96.000 (98.400)
+Current learning rate is 0.000100:
+Epoch
+324
+Dataset Size
+1212
+Epoch: [324][50/123]	Time 13.206 (16.731)	Loss 0.0524 (0.0676)	Prec@1 100.000 (98.200)
+Epoch: [324][100/123]	Time 13.008 (16.729)	Loss 0.0579 (0.0596)	Prec@1 100.000 (98.600)
+Test: [0/2]	Time 19.637 (19.637)	Loss 1.5352 (1.5352)	Prec@1 70.000 (70.000)	Prec@3 80.000 (80.000)
+ * Prec@1 80.000 Prec@3 90.000
+Current learning rate is 0.000100:
+Epoch
+325
+Dataset Size
+1212
+Epoch: [325][50/123]	Time 14.030 (17.029)	Loss 0.0659 (0.0677)	Prec@1 98.000 (98.000)
+Epoch: [325][100/123]	Time 13.191 (16.953)	Loss 0.0631 (0.0645)	Prec@1 98.000 (98.300)
+Current learning rate is 0.000100:
+Epoch
+326
+Dataset Size
+1212
+Epoch: [326][50/123]	Time 14.175 (16.816)	Loss 0.0499 (0.0627)	Prec@1 100.000 (99.000)
+Epoch: [326][100/123]	Time 16.916 (16.851)	Loss 0.0668 (0.0696)	Prec@1 98.000 (98.500)
+Current learning rate is 0.000100:
+Epoch
+327
+Dataset Size
+1212
+Epoch: [327][50/123]	Time 15.007 (16.679)	Loss 0.0590 (0.0745)	Prec@1 100.000 (98.600)
+Epoch: [327][100/123]	Time 14.516 (16.650)	Loss 0.0258 (0.0679)	Prec@1 100.000 (98.700)
+Current learning rate is 0.000100:
+Epoch
+328
+Dataset Size
+1212
+Epoch: [328][50/123]	Time 12.714 (16.512)	Loss 0.1880 (0.0764)	Prec@1 90.000 (97.800)
+Epoch: [328][100/123]	Time 12.172 (16.408)	Loss 0.0758 (0.0756)	Prec@1 96.000 (97.800)
+Current learning rate is 0.000100:
+Epoch
+329
+Dataset Size
+1212
+Epoch: [329][50/123]	Time 13.545 (16.823)	Loss 0.1365 (0.0819)	Prec@1 96.000 (98.000)
+Epoch: [329][100/123]	Time 14.713 (16.910)	Loss 0.0350 (0.0731)	Prec@1 100.000 (98.700)
+Current learning rate is 0.000100:
+Epoch
+330
+Dataset Size
+1212
+Epoch: [330][50/123]	Time 15.694 (16.938)	Loss 0.0802 (0.0699)	Prec@1 100.000 (98.600)
+Epoch: [330][100/123]	Time 15.206 (17.042)	Loss 0.0291 (0.0586)	Prec@1 100.000 (98.900)
+Current learning rate is 0.000100:
+Epoch
+331
+Dataset Size
+1212
+Epoch: [331][50/123]	Time 12.874 (16.675)	Loss 0.0977 (0.0902)	Prec@1 98.000 (97.600)
+Epoch: [331][100/123]	Time 13.889 (16.734)	Loss 0.0641 (0.0720)	Prec@1 100.000 (98.300)
+Current learning rate is 0.000100:
+Epoch
+332
+Dataset Size
+1212
+Epoch: [332][50/123]	Time 16.675 (16.885)	Loss 0.0707 (0.0920)	Prec@1 98.000 (97.200)
+Epoch: [332][100/123]	Time 14.531 (16.745)	Loss 0.0509 (0.0759)	Prec@1 100.000 (98.300)
+Current learning rate is 0.000100:
+Epoch
+333
+Dataset Size
+1212
+Epoch: [333][50/123]	Time 13.398 (16.797)	Loss 0.0367 (0.0552)	Prec@1 100.000 (98.800)
+Epoch: [333][100/123]	Time 13.814 (16.871)	Loss 0.0612 (0.0643)	Prec@1 98.000 (98.600)
+Current learning rate is 0.000100:
+Epoch
+334
+Dataset Size
+1212
+Epoch: [334][50/123]	Time 14.225 (16.712)	Loss 0.0884 (0.0710)	Prec@1 98.000 (98.800)
+Epoch: [334][100/123]	Time 14.291 (16.772)	Loss 0.1151 (0.0718)	Prec@1 96.000 (98.500)
+Current learning rate is 0.000100:
+Epoch
+335
+Dataset Size
+1212
+Epoch: [335][50/123]	Time 12.970 (17.431)	Loss 0.0700 (0.0466)	Prec@1 98.000 (99.600)
+Epoch: [335][100/123]	Time 13.707 (17.066)	Loss 0.0362 (0.0520)	Prec@1 100.000 (99.300)
+Current learning rate is 0.000100:
+Epoch
+336
+Dataset Size
+1212
+Epoch: [336][50/123]	Time 13.380 (16.569)	Loss 0.1005 (0.0739)	Prec@1 96.000 (98.200)
+Epoch: [336][100/123]	Time 13.471 (16.550)	Loss 0.0415 (0.0737)	Prec@1 100.000 (97.700)
+Current learning rate is 0.000100:
+Epoch
+337
+Dataset Size
+1212
+Epoch: [337][50/123]	Time 14.702 (16.680)	Loss 0.0280 (0.0539)	Prec@1 100.000 (99.400)
+Epoch: [337][100/123]	Time 15.284 (16.672)	Loss 0.0900 (0.0633)	Prec@1 98.000 (98.800)
+Current learning rate is 0.000100:
+Epoch
+338
+Dataset Size
+1212
+Epoch: [338][50/123]	Time 12.951 (16.724)	Loss 0.0542 (0.0550)	Prec@1 100.000 (99.200)
+Epoch: [338][100/123]	Time 13.646 (16.894)	Loss 0.0549 (0.0614)	Prec@1 100.000 (98.900)
+Current learning rate is 0.000100:
+Epoch
+339
+Dataset Size
+1212
+Epoch: [339][50/123]	Time 14.054 (16.758)	Loss 0.0588 (0.0548)	Prec@1 98.000 (99.000)
+Epoch: [339][100/123]	Time 12.802 (16.724)	Loss 0.0628 (0.0570)	Prec@1 98.000 (98.900)
+Current learning rate is 0.000100:
+Epoch
+340
+Dataset Size
+1212
+Epoch: [340][50/123]	Time 13.420 (16.622)	Loss 0.1143 (0.0653)	Prec@1 96.000 (99.000)
+Epoch: [340][100/123]	Time 13.000 (16.472)	Loss 0.0430 (0.0648)	Prec@1 100.000 (99.000)
+Current learning rate is 0.000100:
+Epoch
+341
+Dataset Size
+1212
+Epoch: [341][50/123]	Time 14.888 (17.001)	Loss 0.0207 (0.0504)	Prec@1 100.000 (99.600)
+Epoch: [341][100/123]	Time 13.897 (17.036)	Loss 0.0263 (0.0532)	Prec@1 100.000 (99.100)
+Current learning rate is 0.000100:
+Epoch
+342
+Dataset Size
+1212
+Epoch: [342][50/123]	Time 15.343 (16.966)	Loss 0.0675 (0.0636)	Prec@1 98.000 (98.600)
+Epoch: [342][100/123]	Time 13.291 (16.896)	Loss 0.0470 (0.0782)	Prec@1 98.000 (98.100)
+Current learning rate is 0.000100:
+Epoch
+343
+Dataset Size
+1212
+Epoch: [343][50/123]	Time 13.497 (16.810)	Loss 0.0500 (0.0578)	Prec@1 100.000 (99.200)
+Epoch: [343][100/123]	Time 12.973 (16.720)	Loss 0.1075 (0.0669)	Prec@1 96.000 (98.700)
+Current learning rate is 0.000100:
+Epoch
+344
+Dataset Size
+1212
+Epoch: [344][50/123]	Time 15.825 (17.091)	Loss 0.0703 (0.0817)	Prec@1 98.000 (98.600)
+Epoch: [344][100/123]	Time 13.289 (17.076)	Loss 0.0405 (0.0706)	Prec@1 100.000 (98.900)
+Current learning rate is 0.000100:
+Epoch
+345
+Dataset Size
+1212
+Epoch: [345][50/123]	Time 12.979 (16.913)	Loss 0.0414 (0.0640)	Prec@1 100.000 (98.800)
+Epoch: [345][100/123]	Time 15.121 (16.991)	Loss 0.0866 (0.0613)	Prec@1 98.000 (99.100)
+Current learning rate is 0.000100:
+Epoch
+346
+Dataset Size
+1212
+Epoch: [346][50/123]	Time 14.137 (17.101)	Loss 0.0727 (0.0570)	Prec@1 98.000 (98.800)
+Epoch: [346][100/123]	Time 13.192 (16.973)	Loss 0.0936 (0.0656)	Prec@1 98.000 (98.500)
+Current learning rate is 0.000100:
+Epoch
+347
+Dataset Size
+1212
+Epoch: [347][50/123]	Time 14.173 (17.116)	Loss 0.0363 (0.0535)	Prec@1 100.000 (98.800)
+Epoch: [347][100/123]	Time 13.426 (17.094)	Loss 0.0270 (0.0639)	Prec@1 100.000 (98.700)
+Current learning rate is 0.000100:
+Epoch
+348
+Dataset Size
+1212
+Epoch: [348][50/123]	Time 13.368 (16.909)	Loss 0.0662 (0.0692)	Prec@1 100.000 (99.400)
+Epoch: [348][100/123]	Time 20.589 (17.057)	Loss 0.0823 (0.0662)	Prec@1 98.000 (98.900)
+Current learning rate is 0.000100:
+Epoch
+349
+Dataset Size
+1212
+Epoch: [349][50/123]	Time 17.294 (17.266)	Loss 0.0891 (0.0776)	Prec@1 98.000 (98.000)
+Epoch: [349][100/123]	Time 17.204 (17.303)	Loss 0.0596 (0.0727)	Prec@1 98.000 (97.900)
+Test: [0/2]	Time 22.729 (22.729)	Loss 1.2707 (1.2707)	Prec@1 80.000 (80.000)	Prec@3 80.000 (80.000)
+ * Prec@1 80.000 Prec@3 85.000
