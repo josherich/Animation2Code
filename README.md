@@ -1,5 +1,7 @@
 # CSS2Code
 
+[[paper]](https://github.com/josherich/Animation2Code/blob/master/generating-code-from-animation.pdf)
+
 ## Install for Mac
 
 ```
