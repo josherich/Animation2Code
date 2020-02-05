@@ -41,7 +41,19 @@ node utils/generate_annotations.js
 
 ## Training
 
-python main.py --root_path ./data --video_path images/ --annotation_path annotations.json --result_path results --model resnet --model_depth 18 --n_classes 77 --batch_size 4 --n_threads 4 --checkpoint 5 --sample_size 240 --sample_duration 70
+python main.py
+  --root_path ./data
+  --video_path images/
+  --annotation_path annotations.json
+  --result_path results
+  --model resnet
+  --model_depth 18
+  --n_classes 77
+  --batch_size 4
+  --n_threads 4
+  --checkpoint 5
+  --sample_size 240
+  --sample_duration 70
 
 nohup python main.py --root_path ./data --video_path images/ --annotation_path annotations.json --result_path results_10_noscale --model resnet --model_depth 10 --n_classes 77 --batch_size 4 --n_threads 4 --checkpoint 10 --sample_size 240 --sample_duration 70 --n_val_samples 10 --no_hflip --n_scales 1 > /dev/null &
 
