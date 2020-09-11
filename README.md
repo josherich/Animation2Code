@@ -14,30 +14,22 @@ npm install
 1. generate HTML
 
 ```
-node utils/generate_html.js
+node scripts/generate_html.js
 ```
 
-2. generate video
+2. generate video and images
 
 ```
-python utils/record.py --html_path /home/josh/{your_project}/{your_html_path} --video_path data/
+python scripts/record.py --html-path /home/josh/{your_project}/{your_html_path} --video-path data/
+python scripts/video_jpg.py path/to/video path/to/img
+python scripts/n_frames.py path/to/img
 ```
 
 3. generate annotation file
 
 ```
-node utils/generate_annotations.js
+node scripts/generate_annotations.js
 ```
-
-## Training Setup
-
-1. download training video [here]()
-
-2. download annotation file [here]()
-
-3. generate images from video
-
-4. generate n_frames file
 
 ## Training
 

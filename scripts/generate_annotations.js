@@ -96,4 +96,4 @@ function generate_annotaions_seq() {
   fs.writeFileSync(`annotations_seq.json`, dataBuffer);
 }
 
-generate_annotations()
+generate_annotations_classification()

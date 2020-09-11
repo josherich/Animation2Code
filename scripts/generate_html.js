@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const _ = require('underscore')._;
 const seedrandom = require('seedrandom');
 seedrandom('polandspring', { global: true });
@@ -38,9 +39,6 @@ const speeds = [
   'faster'
 ];
 
-let client;
-let Network, Page;
-
 function randomText() {
   let len = 10;
   let text = "";
@@ -54,7 +52,7 @@ function randomText() {
 
 function generateHTML(effect, pattern, speed) {
   let text = randomText();
-  let templatePath = fs.readFileSync(__dirname + '/template.html', 'utf8');
+  let templatePath = fs.readFileSync(path.resolve(__dirname, '../resource/template.html'), 'utf8');
   let data = {
     title: effect,
     effect: effect,
@@ -65,14 +63,20 @@ function generateHTML(effect, pattern, speed) {
   const page = _.template(templatePath)(data);
   const pagebuffer = Buffer.from(page, 'utf-8');
   console.log('generating html: ', effect, pattern, speed);
-  fs.writeFileSync(`html/${effect}_${pattern}_${speed}.html`, pagebuffer);
+  fs.writeFileSync(path.resolve(__dirname, `../data/html/${effect}_${pattern}_${speed}.html`), pagebuffer);
 }
 
-async function main() {
+function main() {
+  const htmlPath = path.resolve(__dirname, '../data/html')
+  if (!fs.existsSync(htmlPath)) {
+    fs.mkdirSync(htmlPath);
+  }
+  fs.copyFileSync(path.resolve(__dirname, '../resource/animate.css'), path.resolve(__dirname, '../data/html/animate.css'));
+  fs.copyFileSync(path.resolve(__dirname, '../resource/pixels.png'), path.resolve(__dirname, '../data/html/pixels.png'));
   for (let i = 0; i < effects.length; i++) {
     for (let j = 0; j < patterns.length; j++) {
       for (let k = 0; k < speeds.length; k++) {
-        await generateHTML(effects[i], patterns[j], speeds[k]);
+        generateHTML(effects[i], patterns[j], speeds[k]);
       }
     }
   }

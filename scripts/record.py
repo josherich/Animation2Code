@@ -40,13 +40,13 @@ speeds = [
 
 def record(xvfb, browser, effect, pattern, speed, html_path, video_path):
     url = 'file://%s/%s_%s_%s.html' % (html_path, effect, pattern, speed)
-    destination = '%s/%s_%s_%s.flv' % (video_path, effect, pattern, speed)
+    destination = '%s/%s/%s_%s_%s.flv' % (video_path, effect, effect, pattern, speed)
     browser.get(url)
 
     # normal quality, lagging in the first part on the video. filesize ~7MB
     # ffmpeg_stream = 'ffmpeg -f x11grab -s 1280x720 -r 24 -i :%d+nomouse -c:v libx264 -preset superfast -pix_fmt yuv420p -s 1280x720 -threads 0 -f flv "%s"' % (xvfb.new_display, destination)
 
-    # high quality, no lagging but huge file size ~50MB
+    # high quality, no lagging but huge. file size ~50MB
     # ffmpeg_stream = 'ffmpeg -y -r 30 -f x11grab -s 256x256 -i :%d+nomouse -c:v libx264 -pix_fmt yuv420p video/bounce_text.mp4'  % xvfb.new_display
 
     # crop
@@ -73,12 +73,12 @@ def run(opt):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        '--video_path',
+        '--video-path',
         default='./data/video',
         type=str,
         help='Root directory path of video generated')
     parser.add_argument(
-        '--html_path',
+        '--html-path',
         default='./data/html',
         type=str,
         help='Root directory path of html generated')

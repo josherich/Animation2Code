@@ -4,9 +4,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-images
-video
-html
+data/img
+data/video
+data/html
 caption/data/features
 caption/data/val_feats
 

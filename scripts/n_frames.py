@@ -26,7 +26,6 @@ def class_process(dir_path, class_name):
     with open(os.path.join(video_dir_path, 'n_frames'), 'w') as dst_file:
       dst_file.write(str(n_frames))
 
-
 if __name__=="__main__":
   dir_path = sys.argv[1]
   for class_name in os.listdir(dir_path):
