@@ -8,7 +8,7 @@ from models.utils import AverageMeter, calculate_accuracy
 
 
 def train_epoch(epoch, data_loader, model, criterion, optimizer, opt,
-                epoch_logger, batch_logger, save_features):
+                epoch_logger, batch_logger, save_features=False):
     print('train at epoch {}'.format(epoch))
 
     model.train()
