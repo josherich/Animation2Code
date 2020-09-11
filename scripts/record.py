@@ -49,6 +49,10 @@ def record(xvfb, browser, effect, pattern, speed, html_path, video_path):
     # high quality, no lagging but huge. file size ~50MB
     # ffmpeg_stream = 'ffmpeg -y -r 30 -f x11grab -s 256x256 -i :%d+nomouse -c:v libx264 -pix_fmt yuv420p video/bounce_text.mp4'  % xvfb.new_display
 
+    # mkdir
+    mkdir_cmd = 'mkdir %s/%s' % (video_path, effect)
+    p = subprocess.Popen(shlex.split(mkdir_cmd))
+
     # crop
     ffmpeg_stream = 'ffmpeg -y -f x11grab -s 256x512 -r 24 -t 5 -i :%d+nomouse -filter:v "crop=256:256:0:128" -c:v libx264 -preset superfast -pix_fmt yuv420p -f flv "%s"' % (xvfb.new_display, destination)
     args = shlex.split(ffmpeg_stream)
