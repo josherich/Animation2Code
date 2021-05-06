@@ -20,6 +20,6 @@
     "chrome-remote-interface": "^0.26.1",
     "css": "^2.2.4",
     "seedrandom": "^2.4.4",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   }
 }
